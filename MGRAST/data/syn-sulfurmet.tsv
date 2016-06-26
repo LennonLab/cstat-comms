@@ -1,0 +1,441 @@
+metagenome	level 1	level 2	level 3	function	abundance	workbench abundance	avg eValue	avg % ident	avg align len	# hits	workbench # hits	
+4698553.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	23	11	-18.67	95.06	49.08	5	1	
+4698543.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	5	3	-26.40	95.27	63.20	3	1	
+4698578.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	12	8	-23.00	98.13	55.17	3	1	
+4698541.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	7	1	-20.80	96.42	52.00	4	1	
+4698545.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	6	4	-30.67	98.78	69.33	3	1	
+4698577.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	35	23	-14.56	98.33	41.00	6	1	
+4698554.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	3	1	-13.67	93.07	39.67	3	1	
+4698581.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	14	1	-17.75	92.33	48.50	4	1	
+4698575.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	13	2	-20.27	89.62	55.00	4	1	
+4698546.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	26	13	-17.70	94.31	47.65	6	1	
+4698571.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	2	1	-18.00	100.00	47.00	2	1	
+4698569.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	25	13	-20.04	96.19	50.69	5	1	
+4698582.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	59	41	-19.75	96.79	50.43	6	1	
+4698574.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	20	11	-19.06	99.18	48.69	3	1	
+4698563.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	13	1	-18.60	95.73	47.10	4	1	
+4698568.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	2	1	-28.00	92.31	69.50	2	1	
+4698551.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	15	12	-19.27	97.83	49.00	3	1	
+4698548.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	51	36	-19.46	97.81	49.67	4	1	
+4698573.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	18	2	-23.50	94.18	57.42	4	1	
+4698542.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	16	7	-19.69	91.26	52.62	4	1	
+4698579.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	5	1	-21.60	93.57	56.40	3	1	
+4698576.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	6	2	-26.50	97.28	61.67	3	1	
+4698549.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	19	1	-21.43	93.41	54.79	4	1	
+4698562.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	4	3	-22.00	97.83	54.50	2	1	
+4698560.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	24	17	-17.00	95.66	45.79	4	1	
+4698565.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	4	1	-13.75	92.72	41.75	2	1	
+4698572.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	6	4	-22.00	95.13	55.83	3	1	
+4698570.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	20	9	-16.73	98.60	44.53	4	1	
+4698544.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	3	1	-23.67	97.77	55.67	2	1	
+4698547.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	13	1	-17.10	91.64	48.50	4	1	
+4698556.3	Sulfur Metabolism	-	Sulfur oxidation	Cytochrome c-type biogenesis protein CcdA (DsbD analog)	5	2	-14.20	92.46	42.60	2	1	
+4698553.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	88	32	-22.24	97.11	51.62	14	4	
+4698543.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	115	6	-25.08	87.93	60.78	19	3	
+4698578.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	184	18	-23.36	93.40	55.05	32	4	
+4698545.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	54	2	-27.74	87.76	65.64	16	2	
+4698577.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	167	59	-20.26	95.01	49.32	32	5	
+4698580.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	25	2	-24.21	90.74	57.71	12	2	
+4698554.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	19	3	-22.68	93.66	54.16	9	2	
+4698581.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	69	4	-25.14	93.12	58.48	17	3	
+4698575.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	97	8	-24.66	92.78	57.80	23	3	
+4698546.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	71	29	-22.14	96.56	51.83	14	4	
+4698571.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	30	5	-20.81	91.39	52.92	16	3	
+4698558.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	23	1	-21.86	91.44	53.91	10	1	
+4698567.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	19	4	-19.61	92.88	49.22	11	2	
+4698569.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	92	27	-24.21	97.35	54.78	13	4	
+4698582.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	227	72	-21.93	93.83	52.88	35	4	
+4698574.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	64	26	-21.68	94.47	52.27	23	4	
+4698563.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	67	4	-26.32	94.25	60.20	16	3	
+4698568.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	43	3	-20.21	83.51	54.48	10	3	
+4698551.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	108	35	-20.73	95.61	50.03	18	4	
+4698548.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	207	67	-20.51	94.01	50.28	32	4	
+4698573.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	88	5	-27.41	93.55	61.68	18	3	
+4698542.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	59	25	-20.15	96.45	48.68	14	4	
+4698576.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	75	14	-27.69	91.58	63.38	22	4	
+4698549.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	91	3	-24.70	87.65	60.03	22	2	
+4698562.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	22	4	-24.09	93.42	56.64	11	3	
+4698560.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	136	47	-22.38	95.14	53.11	20	4	
+4698565.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	48	2	-21.57	89.28	53.98	20	2	
+4698572.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	67	11	-23.53	92.57	56.10	21	3	
+4698570.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	61	23	-21.00	94.36	50.91	20	4	
+4698544.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	107	5	-24.36	85.99	60.47	19	2	
+4698547.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	74	3	-25.37	89.01	61.07	22	3	
+4698556.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Alkyl hydroperoxide reductase subunit C-like protein	50	2	-27.33	89.61	63.67	17	2	
+4698553.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	63	12	-22.39	92.95	54.55	9	1	
+4698543.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	21	3	-20.11	84.79	54.21	9	1	
+4698578.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	79	10	-22.56	89.67	55.90	12	1	
+4698545.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	6	1	-13.14	78.31	46.57	6	1	
+4698577.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	59	14	-21.47	92.80	52.35	9	1	
+4698554.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	15	2	-19.73	91.38	50.40	6	1	
+4698575.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	34	2	-21.79	89.81	55.12	9	1	
+4698546.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	37	17	-21.32	92.23	53.27	8	1	
+4698571.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	5	1	-32.00	94.96	69.40	4	1	
+4698569.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	55	10	-21.96	92.93	53.69	9	1	
+4698582.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	98	32	-20.12	90.50	51.91	15	1	
+4698574.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	22	9	-18.67	92.46	48.43	5	1	
+4698563.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	20	1	-24.20	90.54	57.50	5	1	
+4698568.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	10	1	-17.64	78.70	53.09	4	1	
+4698551.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	52	9	-16.20	88.64	45.16	15	1	
+4698548.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	86	29	-19.69	90.59	50.70	14	1	
+4698573.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	35	1	-21.54	90.17	54.03	9	1	
+4698542.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	34	18	-20.23	91.89	51.12	7	1	
+4698576.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	28	5	-27.90	90.22	64.55	6	1	
+4698549.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	34	1	-22.26	86.61	58.21	9	1	
+4698562.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	19	3	-18.10	91.41	46.95	7	1	
+4698560.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	56	12	-19.31	87.44	52.12	18	1	
+4698572.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	21	6	-26.81	93.05	61.48	3	1	
+4698570.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	23	9	-16.09	91.13	44.22	7	1	
+4698544.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	21	1	-19.70	80.64	56.15	9	1	
+4698547.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	38	1	-20.13	87.41	53.48	12	1	
+4698556.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	12	1	-26.08	91.37	60.50	4	1	
+4698553.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	197	39	-21.96	92.55	54.01	29	2	
+4698543.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	202	3	-23.79	85.65	60.87	30	1	
+4698578.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	407	18	-23.10	88.73	58.31	44	2	
+4698541.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	48	1	-24.22	90.27	59.16	17	1	
+4698577.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	275	47	-21.78	92.45	53.74	42	3	
+4698554.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	22	1	-21.05	92.94	52.32	10	1	
+4698581.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	150	2	-25.88	88.74	63.82	24	1	
+4698575.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	155	7	-23.24	90.16	57.87	35	2	
+4698546.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	87	19	-22.56	92.54	55.90	20	2	
+4698571.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	36	2	-23.74	85.96	61.81	13	1	
+4698567.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	28	2	-24.65	84.84	63.81	12	1	
+4698569.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	219	34	-21.80	92.44	54.10	33	3	
+4698582.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	435	72	-23.12	91.86	56.98	44	3	
+4698574.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	99	14	-19.78	90.31	51.76	34	2	
+4698563.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	131	2	-25.77	91.01	61.90	24	1	
+4698551.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	180	22	-21.10	92.60	52.78	29	2	
+4698548.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	423	61	-22.00	90.86	55.30	45	2	
+4698573.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	142	6	-23.62	90.55	58.39	34	2	
+4698542.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	73	21	-21.35	92.19	53.51	21	2	
+4698579.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	57	1	-24.58	90.03	60.16	20	1	
+4698576.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	94	5	-26.86	89.41	64.72	23	2	
+4698549.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	167	1	-22.41	87.28	58.38	32	1	
+4698562.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	27	3	-21.44	92.29	53.11	13	2	
+4698560.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	238	33	-22.67	92.89	55.39	34	3	
+4698565.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	78	2	-20.49	89.56	53.30	30	2	
+4698572.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	81	5	-25.79	90.30	62.31	20	2	
+4698570.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	92	11	-18.15	90.20	49.26	29	2	
+4698544.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	191	4	-22.75	84.91	59.84	25	1	
+4698547.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	161	1	-20.63	87.73	54.98	30	1	
+4698556.3	Sulfur Metabolism	-	Thioredoxin-disulfide reductase	Thioredoxin reductase (EC 1.8.1.9)	88	2	-24.42	88.87	60.63	29	1	
+4698553.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	188	18	-22.84	94.53	54.67	15	2	
+4698543.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	19	3	-27.00	94.06	62.84	7	1	
+4698578.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	151	9	-24.66	93.85	58.16	13	1	
+4698545.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	5	1	-23.80	84.63	64.60	5	1	
+4698577.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	180	37	-24.49	94.32	57.68	14	2	
+4698580.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	27	1	-26.04	93.63	60.81	8	1	
+4698554.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	39	2	-26.04	93.25	60.75	9	1	
+4698581.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	78	1	-29.00	96.55	64.86	6	1	
+4698575.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	81	2	-27.57	96.54	61.38	10	1	
+4698546.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	65	17	-19.48	93.66	49.38	12	1	
+4698558.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	24	2	-24.04	93.32	57.50	7	1	
+4698569.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	177	18	-26.76	94.95	61.17	15	2	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	242	30	-25.34	94.28	59.04	15	1	
+4698574.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	77	11	-25.54	93.76	60.01	9	1	
+4698563.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	73	2	-26.52	97.02	59.86	7	1	
+4698568.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	7	1	-16.80	87.13	49.40	4	1	
+4698551.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	146	20	-23.96	94.98	56.33	7	1	
+4698548.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	215	33	-24.09	94.29	56.81	14	2	
+4698573.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	93	5	-29.91	96.51	65.08	11	1	
+4698542.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	55	14	-19.63	94.76	48.67	12	2	
+4698576.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	77	6	-28.22	95.15	63.34	10	1	
+4698549.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	75	4	-31.17	96.88	67.52	6	1	
+4698562.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	34	2	-25.57	91.41	61.64	10	1	
+4698560.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	207	22	-26.05	94.14	60.22	12	2	
+4698565.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	25	1	-26.12	94.00	61.60	6	1	
+4698572.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	58	3	-29.47	96.83	64.07	7	1	
+4698570.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	76	12	-25.35	94.17	58.89	9	2	
+4698544.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	22	2	-22.68	94.03	54.55	7	1	
+4698547.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	64	3	-28.80	97.45	63.00	6	1	
+4698556.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	27	1	-29.48	95.47	64.89	6	1	
+4698553.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	136	25	-24.08	96.52	55.75	19	2	
+4698543.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	26	1	-26.83	87.13	66.42	12	1	
+4698578.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	168	14	-25.14	94.59	59.09	19	3	
+4698541.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	24	1	-23.54	93.70	56.33	9	1	
+4698545.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	19	1	-23.55	90.93	58.28	12	1	
+4698577.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	164	27	-23.70	94.27	56.95	18	1	
+4698580.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	26	1	-26.14	96.14	59.14	10	1	
+4698581.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	60	2	-28.83	96.13	63.09	11	1	
+4698575.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	62	1	-24.43	92.94	58.41	12	1	
+4698546.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	88	24	-21.81	95.86	52.47	19	3	
+4698571.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	8	1	-25.12	93.89	59.62	4	1	
+4698558.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	24	1	-21.82	95.58	52.64	10	1	
+4698567.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	6	1	-31.17	95.81	69.67	6	1	
+4698569.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	137	15	-23.91	95.93	55.61	17	1	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	248	72	-23.35	95.23	55.64	20	3	
+4698574.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	61	14	-22.69	94.81	54.33	14	2	
+4698563.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	47	2	-27.67	97.07	61.36	8	1	
+4698568.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	13	2	-19.61	86.10	53.92	7	1	
+4698551.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	134	43	-21.17	95.53	51.51	16	2	
+4698548.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	190	59	-22.54	95.72	53.77	18	3	
+4698573.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	61	1	-23.17	92.39	56.77	14	1	
+4698542.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	70	23	-19.64	94.18	49.90	16	3	
+4698579.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	32	1	-27.07	94.18	62.47	7	1	
+4698576.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	64	7	-26.58	93.88	61.25	12	2	
+4698560.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	167	51	-23.76	94.34	56.63	16	2	
+4698565.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	22	1	-18.15	92.80	47.75	9	1	
+4698572.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	38	5	-25.28	92.43	59.94	13	2	
+4698570.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	57	13	-20.00	94.82	49.69	12	2	
+4698544.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	21	1	-22.24	87.72	57.33	10	1	
+4698556.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Adenylylsulfate kinase (EC 2.7.1.25)	36	1	-27.16	91.78	64.66	11	1	
+4698553.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	613	282	-19.41	92.79	49.54	93	24	
+4698543.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	284	32	-26.28	84.20	66.36	47	8	
+4698578.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	780	172	-21.31	89.16	54.88	93	20	
+4698541.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	93	3	-22.44	90.92	55.06	36	3	
+4698545.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	155	19	-24.15	84.12	62.18	46	8	
+4698577.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	819	465	-19.25	93.38	49.03	108	24	
+4698580.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	127	19	-22.80	85.25	59.82	43	6	
+4698554.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	90	26	-20.44	89.55	52.79	39	11	
+4698581.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	257	28	-25.25	88.95	61.67	52	11	
+4698575.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	299	49	-22.96	88.13	58.22	65	13	
+4698546.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	412	237	-19.17	92.96	49.27	78	18	
+4698571.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	69	22	-25.82	89.60	62.42	31	10	
+4698558.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	106	16	-20.37	85.38	55.14	39	8	
+4698567.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	66	27	-21.84	91.09	54.63	33	12	
+4698569.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	610	287	-19.77	92.53	50.50	85	22	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	1256	695	-20.45	93.15	51.21	139	32	
+4698574.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	334	169	-21.00	92.22	52.65	72	18	
+4698563.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	230	25	-24.49	88.91	60.07	52	10	
+4698568.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	119	22	-21.02	81.69	58.37	36	8	
+4698551.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	568	291	-19.02	92.95	48.70	84	22	
+4698548.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	1121	628	-19.92	93.25	50.17	128	28	
+4698573.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	307	46	-24.48	88.41	60.86	61	14	
+4698542.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	389	237	-17.83	93.97	46.54	69	18	
+4698579.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	101	3	-22.55	88.78	56.75	39	3	
+4698576.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	287	79	-26.00	88.80	63.08	54	13	
+4698549.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	302	21	-23.68	85.46	61.32	59	8	
+4698562.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	89	33	-20.27	90.28	52.84	38	9	
+4698560.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	768	382	-20.45	92.57	51.49	95	21	
+4698565.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	138	25	-18.87	86.88	51.42	48	10	
+4698572.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	267	72	-24.32	88.44	60.51	58	14	
+4698570.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	293	157	-18.35	92.69	47.72	68	21	
+4698544.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	276	39	-23.36	84.12	61.26	42	10	
+4698547.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	248	15	-21.50	85.55	57.44	61	8	
+4698556.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin	148	26	-23.67	85.16	60.74	51	12	
+4698553.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	35	34	-17.97	99.31	44.49	3	2	
+4698543.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	4	4	-30.25	100.00	62.50	1	1	
+4698578.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	16	16	-16.62	99.54	42.44	1	1	
+4698541.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	1	1	-7.00	100.00	26.00	1	1	
+4698545.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	2	2	-20.50	100.00	46.50	1	1	
+4698577.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	57	57	-19.74	99.68	47.26	2	2	
+4698554.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	2	2	-17.00	99.09	43.50	1	1	
+4698581.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	5	5	-33.20	100.00	69.40	1	1	
+4698575.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	6	6	-17.67	99.60	43.50	1	1	
+4698546.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	27	27	-17.07	99.56	43.08	1	1	
+4698571.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	3	3	-29.67	99.60	64.00	1	1	
+4698558.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	1	1	-24.00	100.00	54.00	1	1	
+4698567.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	4	4	-20.50	98.75	49.25	1	1	
+4698569.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	37	36	-17.05	99.84	42.35	2	1	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	85	85	-19.92	99.66	47.90	2	2	
+4698574.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	14	14	-22.29	100.00	51.64	1	1	
+4698563.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	6	6	-27.17	100.00	59.17	1	1	
+4698568.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	1	1	-19.00	71.19	59.00	1	1	
+4698551.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	27	27	-18.63	99.54	45.45	2	2	
+4698548.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	77	77	-19.92	99.66	47.86	1	1	
+4698573.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	6	6	-20.17	100.00	48.50	1	1	
+4698542.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	24	24	-17.08	99.53	43.29	1	1	
+4698579.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	1	1	-6.00	100.00	25.00	1	1	
+4698576.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	8	8	-35.75	100.00	73.75	1	1	
+4698549.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	2	2	-23.00	100.00	52.50	1	1	
+4698562.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	3	3	-19.33	99.54	47.00	1	1	
+4698560.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	43	41	-20.12	99.61	48.22	3	2	
+4698565.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	3	3	-20.00	99.44	49.00	1	1	
+4698572.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	9	9	-33.55	99.77	70.67	1	1	
+4698570.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	14	14	-21.50	99.48	50.64	1	1	
+4698544.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	5	5	-23.40	99.15	53.80	1	1	
+4698547.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	1	1	-24.00	100.00	54.00	1	1	
+4698556.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Ferredoxin--sulfite reductase (EC 1.8.7.1)	3	3	-28.67	100.00	63.00	1	1	
+4698546.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Phosphoadenylyl-sulfate reductase [thioredoxin] (EC 1.8.4.8)	45	1	-22.93	87.41	56.67	13	1	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Phosphoadenylyl-sulfate reductase [thioredoxin] (EC 1.8.4.8)	148	1	-21.80	88.37	54.54	24	1	
+4698553.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	93	57	-18.90	99.37	45.37	11	5	
+4698543.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	10	5	-27.55	97.65	60.67	6	2	
+4698578.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	59	18	-24.58	98.04	56.08	11	4	
+4698541.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	7	1	-23.86	99.25	53.14	4	1	
+4698545.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	9	2	-31.50	96.99	68.62	5	1	
+4698577.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	117	69	-21.65	98.67	50.20	14	4	
+4698580.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	10	1	-34.60	99.27	69.60	4	1	
+4698554.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	8	2	-15.38	97.00	41.38	4	2	
+4698581.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	28	2	-28.95	99.05	61.90	4	1	
+4698575.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	32	11	-20.80	99.25	48.15	9	4	
+4698546.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	57	28	-18.77	99.00	45.65	11	3	
+4698571.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	3	1	-19.00	99.06	47.67	2	1	
+4698558.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	6	1	-18.40	98.68	45.00	5	1	
+4698567.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	3	1	-29.33	97.40	66.00	3	1	
+4698569.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	85	41	-21.48	99.04	49.77	10	4	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	148	92	-22.02	98.85	50.64	12	4	
+4698574.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	34	18	-18.83	99.45	45.31	10	3	
+4698563.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	16	2	-28.81	99.65	62.25	3	1	
+4698568.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	6	2	-25.00	94.55	58.83	3	2	
+4698551.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	55	44	-19.17	99.13	46.04	8	3	
+4698548.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	114	84	-20.69	98.75	48.09	13	5	
+4698573.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	30	10	-24.72	99.31	54.22	8	3	
+4698542.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	43	28	-20.56	98.95	48.08	10	4	
+4698579.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	7	1	-32.71	100.00	68.43	2	1	
+4698576.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	23	4	-29.69	98.67	63.85	6	1	
+4698549.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	19	3	-34.50	99.59	71.11	3	1	
+4698562.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	6	2	-18.33	96.80	45.83	4	2	
+4698560.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	79	59	-20.74	99.14	48.62	8	3	
+4698565.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	4	1	-26.67	97.67	57.67	3	1	
+4698572.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	10	3	-31.71	99.68	66.14	5	1	
+4698570.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	28	21	-15.12	99.11	39.60	7	3	
+4698544.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	7	4	-28.71	99.61	62.00	3	2	
+4698547.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	15	2	-32.28	99.20	67.29	4	2	
+4698556.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate adenylyltransferase, dissimilatory-type (EC 2.7.7.4)	4	2	-28.00	96.28	62.75	3	1	
+4698578.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate and thiosulfate binding protein CysP	3	1	-24.67	92.36	58.33	3	1	
+4698560.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate and thiosulfate binding protein CysP	1	1	-16.00	100.00	41.00	1	1	
+4698551.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate and thiosulfate import ATP-binding protein CysA (EC 3.6.3.25)	3	1	-5.67	67.11	37.00	3	1	
+4698548.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate and thiosulfate import ATP-binding protein CysA (EC 3.6.3.25)	8	1	-9.55	70.68	41.78	8	1	
+4698582.3	Sulfur Metabolism	Inorganic sulfur assimilation	Inorganic Sulfur Assimilation	Sulfate transport system permease protein CysW	6	2	-32.50	96.47	70.50	3	1	
+4698553.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	15	6	-13.27	75.14	48.87	5	2	
+4698543.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	2	2	-19.00	65.40	71.50	2	2	
+4698578.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	12	5	-13.54	75.52	50.82	6	2	
+4698541.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	6	1	-16.17	79.24	52.83	4	1	
+4698577.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	29	17	-13.29	71.09	50.07	8	2	
+4698554.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	3	2	-17.67	71.52	60.00	3	2	
+4698581.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	8	1	-15.38	77.16	52.88	3	1	
+4698575.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	7	2	-16.71	78.14	54.86	3	1	
+4698546.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	13	10	-12.38	69.04	51.23	4	2	
+4698571.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	4	2	-16.75	70.18	61.00	3	1	
+4698567.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	3	2	-20.67	69.69	71.00	3	2	
+4698569.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	22	9	-14.18	75.42	51.55	7	2	
+4698582.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	54	20	-14.52	75.20	50.80	11	2	
+4698574.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	22	9	-13.59	76.79	48.68	6	2	
+4698563.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	10	2	-15.60	78.64	51.00	3	1	
+4698551.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	21	11	-12.36	72.89	48.41	8	1	
+4698548.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	36	19	-13.03	75.34	47.70	8	2	
+4698573.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	9	3	-16.44	79.43	54.33	2	1	
+4698542.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	11	6	-15.09	72.03	55.18	6	2	
+4698579.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	6	1	-20.40	83.64	61.00	4	1	
+4698576.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	5	2	-12.20	69.77	51.40	5	2	
+4698562.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	5	4	-8.60	75.74	39.80	3	2	
+4698560.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	22	13	-15.73	72.70	56.27	7	2	
+4698572.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	4	3	-13.25	67.71	55.00	3	2	
+4698570.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	17	7	-15.23	75.30	52.77	6	2	
+4698547.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	16	1	-17.25	80.96	52.19	4	1	
+4698556.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component	2	1	-15.50	71.39	58.00	2	1	
+4698553.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	45	37	-17.29	94.73	46.91	3	1	
+4698543.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	2	1	-21.50	91.67	54.50	2	1	
+4698578.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	33	21	-15.52	89.16	47.82	5	1	
+4698541.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	2	1	-22.00	81.25	62.00	2	1	
+4698545.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	2	2	-17.00	98.96	45.00	1	1	
+4698577.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	85	80	-17.56	97.74	46.00	4	1	
+4698580.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	2	2	-28.00	100.00	63.50	1	1	
+4698554.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	5	4	-8.20	97.19	29.40	2	1	
+4698581.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	13	7	-19.85	87.42	55.62	2	1	
+4698575.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	11	5	-17.82	84.46	53.82	2	1	
+4698546.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	34	29	-16.82	95.98	46.85	4	1	
+4698571.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	4	2	-22.25	83.65	66.25	2	1	
+4698567.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	5	5	-7.80	100.00	28.60	1	1	
+4698569.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	41	34	-17.90	96.53	47.45	3	1	
+4698582.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	106	97	-18.02	96.94	47.94	2	1	
+4698574.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	29	25	-18.90	96.04	50.17	2	1	
+4698563.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	10	7	-18.70	92.68	50.40	2	1	
+4698568.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	3	1	-19.00	91.05	50.33	3	1	
+4698551.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	50	45	-14.36	97.11	40.90	4	1	
+4698548.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	98	91	-17.71	97.63	46.69	2	1	
+4698573.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	13	6	-19.17	89.89	52.75	3	1	
+4698542.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	36	30	-14.14	95.92	41.86	4	1	
+4698579.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	4	1	-23.25	82.03	68.00	3	1	
+4698576.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	15	12	-23.00	94.02	57.13	3	1	
+4698549.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	11	4	-19.00	81.08	59.91	2	1	
+4698562.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	5	4	-13.60	94.59	41.00	2	1	
+4698560.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	54	48	-17.35	96.98	46.06	4	1	
+4698565.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	3	2	-19.00	95.16	51.33	2	1	
+4698572.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	13	11	-17.15	95.09	47.00	3	1	
+4698570.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	27	25	-16.89	97.60	45.56	2	1	
+4698547.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	9	3	-17.33	79.22	58.33	2	1	
+4698556.3	Sulfur Metabolism	Organic sulfur assimilation	Alkanesulfonate assimilation	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component	6	5	-17.83	95.38	50.00	2	1	
+4698553.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	39	33	-18.79	96.62	46.90	5	2	
+4698543.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	2	2	-28.00	100.00	58.50	1	1	
+4698578.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	36	29	-19.61	94.04	49.73	7	3	
+4698545.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	6	3	-18.67	85.92	51.00	4	1	
+4698577.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	80	62	-18.87	94.86	47.65	10	1	
+4698580.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	3	3	-15.67	98.85	39.67	1	1	
+4698554.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	3	2	-10.33	88.95	37.00	2	1	
+4698581.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	7	2	-18.88	78.51	55.25	6	1	
+4698575.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	11	10	-22.09	96.70	52.91	2	1	
+4698546.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	30	30	-18.40	99.81	45.33	2	2	
+4698571.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	3	3	-11.00	99.07	32.00	1	1	
+4698558.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	2	2	-8.50	100.00	29.00	2	2	
+4698567.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	4	4	-14.75	100.00	37.50	1	1	
+4698569.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	41	36	-17.95	97.67	45.26	5	2	
+4698582.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	106	84	-20.90	94.80	51.79	11	3	
+4698574.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	21	14	-20.09	90.11	53.67	6	1	
+4698563.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	1	1	-19.00	100.00	44.00	1	1	
+4698568.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	5	3	-13.20	84.05	43.00	3	1	
+4698551.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	41	33	-17.59	92.98	46.22	9	2	
+4698548.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	93	74	-20.97	94.19	52.01	12	2	
+4698573.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	9	8	-20.33	95.64	50.67	2	1	
+4698542.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	25	25	-19.52	99.49	47.16	2	2	
+4698576.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	9	9	-37.89	100.00	76.22	1	1	
+4698549.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	31	3	-21.16	73.65	65.32	8	1	
+4698562.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	4	3	-10.25	91.63	35.25	2	1	
+4698560.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	53	44	-21.38	95.21	51.68	7	1	
+4698565.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	3	3	-6.00	98.67	25.00	2	2	
+4698572.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	9	8	-27.22	96.36	60.67	2	1	
+4698570.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	23	19	-16.04	96.19	42.61	6	2	
+4698544.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	1	1	-15.00	100.00	38.00	1	1	
+4698547.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	27	4	-19.20	77.64	58.52	8	1	
+4698556.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine beta-lyase (EC 4.4.1.8)	3	3	-18.67	100.00	45.33	1	1	
+4698553.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	47	35	-18.42	97.80	46.22	7	1	
+4698543.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	4	4	-29.75	99.68	63.75	1	1	
+4698578.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	27	22	-19.22	97.55	47.78	5	1	
+4698545.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	6	5	-33.00	97.33	68.83	2	1	
+4698577.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	76	69	-18.62	98.06	46.28	5	1	
+4698580.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	3	3	-24.00	100.00	54.00	1	1	
+4698554.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	9	9	-14.78	99.11	38.56	1	1	
+4698581.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	13	1	-29.61	91.97	68.00	5	1	
+4698575.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	10	9	-30.00	97.14	64.10	2	1	
+4698546.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	27	23	-18.55	97.90	46.30	4	1	
+4698571.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	3	2	-31.67	88.44	77.00	2	1	
+4698558.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	2	2	-20.50	100.00	49.00	1	1	
+4698567.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	1	1	-19.00	100.00	49.00	1	1	
+4698569.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	46	35	-19.51	97.36	48.07	5	1	
+4698582.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	99	82	-18.79	97.26	47.28	7	1	
+4698574.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	31	27	-21.42	97.56	50.87	5	1	
+4698563.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	7	1	-20.57	91.01	51.72	4	1	
+4698568.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	4	3	-22.75	94.00	55.25	2	1	
+4698551.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	47	43	-16.94	98.30	43.34	5	1	
+4698548.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	96	81	-15.92	96.87	42.07	9	1	
+4698573.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	13	11	-26.92	98.39	59.00	2	1	
+4698542.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	25	24	-19.72	99.52	47.44	2	1	
+4698576.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	8	8	-29.88	99.65	63.12	1	1	
+4698549.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	25	3	-23.52	84.66	62.32	5	1	
+4698562.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	9	9	-19.67	99.85	46.78	1	1	
+4698560.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	66	57	-18.44	98.01	46.29	6	1	
+4698565.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	2	1	-25.00	98.16	56.50	2	1	
+4698572.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	6	5	-31.00	97.20	67.17	2	1	
+4698570.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	28	24	-19.36	97.61	47.47	4	1	
+4698544.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	5	3	-21.40	97.75	52.60	2	1	
+4698547.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	22	2	-18.64	83.82	52.68	6	1	
+4698556.3	Sulfur Metabolism	Organic sulfur assimilation	L-Cystine Uptake and Metabolism	Cystathionine gamma-synthase (EC 2.5.1.48)	2	1	-17.50	94.00	43.00	2	1	
+4698553.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	716	45	-25.91	94.60	60.17	35	1	
+4698543.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	135	9	-24.89	85.59	64.05	25	1	
+4698578.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	836	36	-26.75	92.72	62.63	39	1	
+4698545.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	58	1	-22.62	81.47	63.11	19	1	
+4698577.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	748	77	-25.01	93.69	58.94	52	1	
+4698580.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	140	4	-28.92	92.57	66.67	21	1	
+4698554.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	100	5	-22.31	92.73	54.64	18	1	
+4698581.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	423	3	-29.94	94.79	66.81	25	1	
+4698575.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	396	5	-27.41	93.48	63.45	32	1	
+4698546.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	272	40	-23.59	93.09	56.95	34	1	
+4698558.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	129	2	-25.89	91.73	61.80	20	1	
+4698569.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	747	39	-26.15	94.73	60.39	34	1	
+4698582.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	1074	104	-24.77	93.21	58.87	64	1	
+4698574.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	280	22	-25.23	93.15	59.83	36	1	
+4698563.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	363	2	-28.27	94.83	63.88	24	1	
+4698568.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	41	1	-19.28	79.41	57.59	15	1	
+4698551.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	610	46	-25.26	94.27	58.95	32	1	
+4698548.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	979	96	-23.82	93.61	56.83	56	1	
+4698573.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	445	9	-28.66	93.49	65.49	33	1	
+4698542.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	224	40	-20.50	93.77	51.25	30	1	
+4698576.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	285	9	-31.72	92.94	70.93	28	1	
+4698549.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	382	1	-28.15	93.10	64.81	28	1	
+4698562.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	117	8	-23.84	93.19	57.35	20	1	
+4698560.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	845	57	-26.39	93.97	61.15	41	1	
+4698572.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	274	8	-29.52	92.66	67.41	28	1	
+4698570.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	243	20	-23.27	93.50	56.13	33	1	
+4698544.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	117	7	-20.88	85.12	57.47	23	1	
+4698547.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	336	2	-27.49	93.11	63.65	30	1	
+4698556.3	Sulfur Metabolism	Organic sulfur assimilation	Utilization of glutathione as a sulphur source	Gamma-glutamyltranspeptidase (EC 2.3.2.2)	142	2	-26.51	91.92	62.75	19	1	

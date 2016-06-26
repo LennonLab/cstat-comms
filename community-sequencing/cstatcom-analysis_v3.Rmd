@@ -1,0 +1,796 @@
+---
+title: "Bottom-up mediation of microbial communities through phage infection"
+author: "Larsen ML, Campbell, CE, SW Wilhelm, JT Lennon (2015)"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+header-includes:
+   - \usepackage{array}
+output: pdf_document
+fontsize: 11pt
+geometry: margin = 0.75in
+---
+#Project Summary
+
+**Overview**: This project serves to analyze the changes in microbial chemostat populations and communities as a result of increasing trophic complexity. 
+Data for this project was collected in part by MLL from a 2x2 factorial chemostat setup and by CEC who generated the microbial community sequences.
+
+**Collaborators**
+
+**Project Questions**
+
+\newpage
+\tableofcontents
+\newpage
+
+
+Data analysis for this project was completed with mothur version 1.36.1 (July 2015) and `r sessionInfo()$R.version$version.string`.
+
+
+
+
+
+```{r setup, echo=FALSE, results='hide', message = FALSE, warning = FALSE}
+# Setup Work Environment
+rm(list = ls())
+
+setwd("C:/users/meglarse/github/larsen-dissertation/chpt2_cstat-comms/community-sequencing")
+
+# Load packages, source code, and dependencies
+require(vegan);require(reshape)
+require(nlme);require(ggplot2)
+#require(picante); require(ape)
+#require(seqinr);require(fossil)
+#require(simba)
+
+# Load data files
+avg <- read.csv("./data/cstat-means.csv")
+flow.counts <- read.csv("./data/20150624-popcounts.csv", header = T)
+sync <- read.csv("./data/cstat-scopecounts.csv", header = T)
+
+theme_set(theme_bw())
+```
+
+
+#Time-series analysis
+## Summary of major results
+ 1. Total density did not shift through time between NL and PL -Ph treatments
+ 2. Total density, however, changed through time between NL and PL +Ph treatments
+
+```{r,results = 'hide', echo = FALSE}
+#create population means
+flow.counts$time2 <- as.factor(flow.counts$time)
+#m1 <- melt(flow.counts, id = c(trt,lim,cID,time))
+m1 <- melt(flow.counts)
+
+sem <- function(x){
+  sd(x)/sqrt(length(x))
+}
+
+c1 <- cast(m1, trt + lim + time2 ~ variable, mean)
+c2 <- cast(m1, trt + lim + time2 ~ variable, sem)
+c1$time2 <- as.numeric(as.character(c1$time))
+
+```
+
+```{r AvgPopDynamics-control}
+
+pdf(file = "./supporting-files/figures/pub-fig_chpt2-Cpopulationdynamics.pdf", 
+     height = 2.5, width = 5, pointsize = 7, family="sans")
+
+day.start <- -10
+day.end <- 170
+
+par(mfrow = c(1,2))
+par(mar = c(4,6,3,0)+0.1)
+
+# Control plots
+plot(avg$day,avg$NmeanC,
+       xlim = c(day.start,day.end),ylim = c(1*10^5,10^9), log = "y", xaxt = 'n',yaxt = 'n',
+       xlab = "Time (d)", ylab = expression(paste("Abundance (mL"^"-1",")")), 
+     cex.lab = 1.5, font.lab = 2,
+       lty = 1, lwd = 1, type = "o", col = "white", bg = "white", 
+       pch = 21, cex = 2)
+  
+  axis(1, cex.axis = 1.2,c(-120,-80,-40,0,40,80,120,160))
+  ticks <- seq(5, 9, by=1)
+  labels <- sapply(ticks, function(i) as.expression(bquote(10^ .(i))))
+  axis(2, cex.axis = 1.2, at = c(10^5, 10^6, 10^7, 10^8, 10^9), 
+       labels = labels, las = 1)
+  #abline(v = 0, col = "grey", lty = 2, lwd = 2)
+  
+# Add error bars for the microscope counts  
+#  arrows(avg$day, avg$NmeanC - avg$NseC,
+#         avg$day, avg$NmeanC + avg$NseC,
+#         code = 0,lwd = 2, col = "grey")
+
+  
+  if(day.start < 0){
+    abline(v = 0, lwd = 1, lty = 2, col = "grey66")
+  }
+  points(avg$day,avg$NmeanC,
+         pch = 21, col = "grey",bg = "white",
+         type = 'o',lwd = 1,cex = 1, lty = 1)
+  points(c1$time[c1$trt == "C" & c1$lim == "N"], 
+         c1$flow.het[c1$trt == "C" & c1$lim == "N"],
+         pch = 24, col = "black", bg = "green",
+         type = "o", lwd = 1, cex = 1.2, lty = 1)
+#  points(c1$time2[c1$trt == "C" & c1$lim == "N"], 
+#         c1$flow.syn[c1$trt == "C" & c1$lim == "N"],
+#         pch = 21, col = "black", bg = "black",
+#         type = "o", lwd = 2, cex = 1.2, lty = 1)
+box(lwd = 1.5)
+text("a",cex=2.5,x=162,y=10^8.8)
+
+
+par(mar = c(4,4,3,2)+0.1)
+
+#PL
+plot(avg$day,avg$PmeanC,
+       xlim = c(day.start,day.end),ylim = c(1*10^5,10^9), log = "y", xaxt = 'n',yaxt = 'n',
+       xlab = "Time (d)", ylab = NA,cex.lab = 1.5, 
+       lty = 1, lwd = 1, type = "o", col = "grey", bg = "white", 
+       pch = 21, cex = 1, font.lab = 2)
+  
+  axis(1, cex.axis = 1.2,c(-120,-80,-40,0,40,80,120,160))
+  ticks <- seq(5, 9, by=1)
+  labels <- sapply(ticks, function(i) as.expression(bquote(10^ .(i))))
+  axis(2, cex.axis = 1.25, at = c(10^5, 10^6, 10^7, 10^8, 10^9), 
+       labels = labels, las = 1)
+  #abline(v = 0, col = "grey", lty = 2, lwd = 2)
+    
+# Add error bars for the microscope counts  
+#  arrows(avg$day, avg$PmeanC - avg$PseC,
+#         avg$day, avg$PmeanC + avg$PseC,
+#         code = 0,lwd = 2, col = "grey")
+
+  
+#add a vertical line at the day of phage addition
+  if(day.start < 0){
+    abline(v = 0, lwd = 1, lty = 2, col = "grey66")
+  }
+  
+  points(avg$day,avg$PmeanC,
+         pch = 21, col = "grey",bg = "white",
+         type = 'o',lwd = 1,cex = 1, lty = 1)
+  arrows(c1$time[c1$trt == "C" & c1$lim == "P"], 
+         c1$flow.het[c1$trt == "C" & c1$lim == "P"] - c2$flow.het[c2$trt == "C" & c2$lim == "P"],
+         c1$time[c1$trt == "C" & c1$lim == "P"], 
+         c1$flow.het[c1$trt == "C" & c1$lim == "P"] + c2$flow.het[c2$trt == "C" & c2$lim == "P"],
+         code = 0,lwd = 1, col = "black")
+  
+    points(c1$time2[c1$trt == "C" & c1$lim == "P"], 
+         c1$flow.het[c1$trt == "C" & c1$lim == "P"],
+         pch = 24, col = "black", bg = "green",
+         type = "o", lwd = 1, cex = 1.2, lty = 1)
+#  points(c1$time2[c1$trt == "C" & c1$lim == "P"], 
+#         c1$flow.syn[c1$trt == "C" & c1$lim == "P"],
+#         pch = 21, col = "black", bg = "black",
+#         type = "o", lwd = 2, cex = 1.2, lty = 1)
+
+  legend("bottomright",
+       c("heterotrophs","host"), 
+       pch = c(24,21,22), lty = 1, 
+       pt.bg = c("green","white"), 
+       col = c("black","grey"),
+       bty = 'n', cex = 0.8, pt.cex = 1)
+box(lwd=1.5)
+text("b",cex=2.5,x=162,y=10^8.8)
+dev.off()
+```
+
+\newpage
+
+```{r AvergeDynamics-treatment}  
+pdf(file = "./supporting-files/figures/pub-fig_chpt2-Tpopulationdynamics.pdf", 
+    height = 2.5, width = 5, pointsize = 7)
+
+# Treatment plots
+day.start <- -10
+day.end <- 170
+
+par(mfrow = c(1,2))
+par(mar = c(4,6,3,0)+0.1)
+
+plot(avg$day,avg$NmeanSI,
+       xlim = c(day.start,day.end),ylim = c(1*10^5,10^9), log = "y", xaxt = 'n',yaxt = 'n',
+       xlab = "Time (d)", ylab = expression(paste("Abundance (mL"^"-1",")")), 
+     cex.lab = 1.5, font.lab = 2, main = NA,
+       lty = 1, lwd = 1, type = "o", col = "grey", bg = "white", 
+       pch = 21, cex = 1)
+  
+  axis(1, cex.axis = 1.2,c(-120,-80,-40,0,40,80,120,160), font = 1)
+  ticks <- seq(5, 9, by=1)
+  labels <- sapply(ticks, function(i) as.expression(bquote(10^ .(i))))
+  axis(2, cex.axis = 1.2, at = c(10^5, 10^6, 10^7, 10^8, 10^9), 
+       labels = labels, las = 1, font = 1)
+  #abline(v = 0, col = "grey", lty = 2, lwd = 2)
+  
+# Add error bars for the microscope counts  
+#  arrows(avg$day, avg$NmeanSI - avg$NseSI,
+#         avg$day, avg$NmeanSI + avg$NseSI,
+#         code = 0,lwd = 2, col = "grey")
+#  arrows(avg$day, avg$NmeanP - avg$NseP,
+#         avg$day, avg$NmeanP + avg$NseP,
+#         code = 0,lwd = 2, col = "grey")
+
+  if(day.start < 0){
+    abline(v = 0, lwd = 1, lty = 2, col = "grey66")
+  }
+  points(avg$day,avg$NmeanSI,
+         pch = 21, col = "grey",bg = "white",
+         type = 'o',lwd = 1,cex = 1, lty = 1)
+  points(avg$day,avg$NmeanP,
+         pch = 22, col = "grey",bg = "grey80",
+         type = 'o',lwd = 1,cex = 1, lty = 1)
+  arrows(c1$time[c1$trt == "T" & c1$lim == "N"], 
+         c1$flow.het[c1$trt == "T" & c1$lim == "N"] - c2$flow.het[c2$trt == "T" & c2$lim == "N"],
+         c1$time[c1$trt == "T" & c1$lim == "N"], 
+         c1$flow.het[c1$trt == "T" & c1$lim == "N"] + c2$flow.het[c2$trt == "T" & c2$lim == "N"],
+         code = 0,lwd = 1, col = "black")
+  
+  points(c1$time[c1$trt == "T" & c1$lim == "N"], 
+         c1$flow.het[c1$trt == "T" & c1$lim == "N"],
+         pch = 24, col = "black", bg = "green",
+         type = "o", lwd = 1, cex = 1.2, lty = 1)
+
+  box(lwd = 1.5)
+text("a",cex=2.5,x=162,y=10^8.8)
+
+
+par(mar = c(4,4,3,2)+0.1)
+#PL
+
+plot(avg$day,avg$PmeanSI,
+       xlim = c(day.start,day.end),ylim = c(1*10^5,10^9), log = "y", xaxt = 'n',yaxt = 'n',
+       xlab = "Time (d)", ylab = NA, main = NA, cex.lab = 1.5, 
+       lty = 1, lwd = 1, type = "o", col = "grey", bg = "white", 
+       pch = 21, cex = 1, font.lab = 2)
+  
+  axis(1, cex.axis = 1.2,c(-120,-80,-40,0,40,80,120,160))
+  ticks <- seq(5, 9, by=1)
+  labels <- sapply(ticks, function(i) as.expression(bquote(10^ .(i))))
+  axis(2, cex.axis = 1.25, at = c(10^5, 10^6, 10^7, 10^8, 10^9), 
+       labels = labels, las = 1, font = 2)
+
+# Add error bars for the microscope counts  
+#  arrows(avg$day, avg$PmeanSI - avg$PseSI,
+#         avg$day, avg$PmeanSI + avg$PseSI,
+#         code = 0,lwd = 2, col = "grey")
+#  arrows(avg$day, avg$PmeanP - avg$PseP,
+#         avg$day, avg$PmeanP + avg$PseP,
+#         code = 0,lwd = 2, col = "grey")
+  
+#add a vertical line at the day of phage addition
+  if(day.start < 0){
+    abline(v = 0, lwd =1, lty = 2, col = "grey66")
+  }
+  
+  points(avg$day,avg$PmeanSI,
+         pch = 21, col = "grey",bg = "white",
+         type = 'o',lwd = 1,cex = 1, lty = 1)
+  points(avg$day,avg$PmeanP,
+         pch = 22, col = "grey",bg = "grey80",
+         type = 'o',lwd = 1,cex = 1, lty = 1)
+  arrows(c1$time[c1$trt == "T" & c1$lim == "P"], 
+         c1$flow.het[c1$trt == "T" & c1$lim == "P"] - c2$flow.het[c2$trt == "T" & c2$lim == "P"],
+         c1$time[c1$trt == "T" & c1$lim == "P"], 
+         c1$flow.het[c1$trt == "T" & c1$lim == "P"] + c2$flow.het[c2$trt == "T" & c2$lim == "P"],
+         code = 0,lwd = 1, col = "black")
+  
+    points(c1$time[c1$trt == "T" & c1$lim == "P"], 
+         c1$flow.het[c1$trt == "T" & c1$lim == "P"],
+         pch = 24, col = "black", bg = "green",
+         type = "o", lwd = 1, cex = 1.2, lty = 1)
+ 
+box(lwd=1.5)
+text("b",cex=2.5,x=162,y=10^8.8)
+#par(new=TRUE)
+#plot(avg$day,vbP,
+#     type = "l", lty = 1, lwd = 2, col = "red",
+#     xaxt="n",yaxt="n",xlab="",ylab="")
+#axis(4, las = 1, col = "red", cex.axis = 1.25)
+#mtext("Phage to Cyanobacteria",side=4,line=3)
+
+legend("bottomright",
+       c("heterotrophs","host","phage"), 
+       pch = c(24,21,22), lty = 1, 
+       pt.bg = c("green","white","grey"), 
+       col = c("black","grey","grey"),
+       bty = 'n', cex = 0.8, pt.cex = 1)
+
+dev.off()
+```
+
+\newpage
+## RMANOVA
+```{r RMANOVA}
+#Q: Does the het density change through time? 
+#Q: Is it correlated with the Synechococcus density?
+
+control <- flow.counts[flow.counts$trt == "C",]
+treatment <- flow.counts[flow.counts$trt == "T",]
+NL <- flow.counts[flow.counts$lim == "N",]
+PL <- flow.counts[flow.counts$lim == "P",]
+
+ar1.hetC <- lme(flow.het ~ lim * time , random = ~ 1 | cID, 
+            correlation = corAR1(form = ~ 1 | cID),
+            data = control)
+
+ar1.hetT <- lme(flow.het ~ lim * time , random = ~ 1 | cID, 
+            correlation = corAR1(form = ~ 1 | cID),
+            data = treatment)
+ar1.hetN <- lme(flow.het ~ trt * time , random = ~ 1 | cID, 
+            correlation = corAR1(form = ~ 1 | cID),
+            data = NL)
+ar1.hetP <- lme(flow.het ~ trt * time , random = ~ 1 | cID, 
+            correlation = corAR1(form = ~ 1 | cID),
+            data = PL)
+
+#arma.het <- lme(flow.het ~ lim * time * trt, random = ~ 1 | cID, 
+#            correlation = corARMA(form = ~ 1 , p = 1,q = 2),
+#            data = flow.counts)
+
+#anova(ar1.het,arma.het)
+summary(ar1.het)
+anova.lme(ar1.hetC, type = "sequential", adjustSigma = F)
+anova.lme(ar1.hetT, type = "sequential", adjustSigma = F)
+anova.lme(ar1.hetN, type = "sequential", adjustSigma = F)
+anova.lme(ar1.hetP, type = "sequential", adjustSigma = F)
+```
+
+```{r CCF}
+
+CN <- flow.counts[flow.counts$trt=="C" & flow.counts$lim=="N"]
+TN <- flow.counts[flow.counts$trt=="T" & flow.counts$lim=="N"]
+CP <- flow.counts[flow.counts$trt=="C" & flow.counts$lim=="P"]
+TP <- flow.counts[flow.counts$trt=="T" & flow.counts$lim=="P"]
+
+pdf(file = "./supporting-files/figures/pub-fig_C-CCF.pdf", width = 6, height = 3, pointsize = 7)
+par(mfrow =c(1,2))
+ccf.CN <- ccf(CN$flow.syn, CN$flow.het, lag.max = 6,main = "NL, -Ph")
+ccf.CP <- ccf(CP$flow.syn, CP$flow.het, lag.max = 6, main = "PL, -Ph")
+dev.off()
+
+pdf(file = "./supporting-files/figures/pub-fig_T-CCF.pdf", width = 6, height = 3, pointsize = 7)
+par(mfrow =c(1,2))
+ccf.TN <- ccf(TN$flow.syn, TN$flow.het, lag.max = 6, main = "NL, +Ph")
+ccf.TP <- ccf(TP$flow.syn, TP$flow.het, lag.max = 6, main = "PL, +Ph")
+dev.off()
+
+ccf.results <- data.frame(ccf.CN$lag,
+                          ccf.CN$acf,
+                          ccf.TN$acf,
+                          ccf.CP$acf,
+                          ccf.TP$acf)
+colnames(ccf.results) <- c("lag","NL Control","NL +Phage", "PL Control","PL +Phage")
+
+#require("pander")
+#pandoc.table(ccf.results, style = "rmarkdown", round = 3, 
+#             caption = "acf values for each group")
+```
+
+
+#Community analysis
+##Summary of major findings
+
+\newpage
+
+```{r}
+# load packages and source code
+require("vegan")
+source("./bin/DiversityFunctions.r")  
+#source("./bin/MothurTools.R")
+
+# load required functions
+se <- function(x){sd(x)/sqrt(length(x))}                                   
+
+# data file information
+level <- "unique"
+shared <- "./mothur/20151029/Cstat_all.final.an.shared"
+design.in <- "./data/design.txt"
+plot.title <- "Cstat_prelim"
+```
+
+```{r 2.2_preprocessing, echo = FALSE}
+# Import Site by OTU Matrix
+cstat_data <- t(read.otu(shared, level))             
+design <- read.delim(design.in, header=T, row.names=1)
+
+# Remove Zero Sum OTUs -- singletons and doubletons
+cstat_data <- cstat_data[!(rowSums(abs(cstat_data)) < 2),] 
+#dim(cstat_data)
+
+# Remove cyanobacteria calls
+rm.rows <- c(17,23,28,31,36,38,40,46,52)
+cstat_data <- cstat_data[-rm.rows,]
+cstat_data_syn <- cstat_data
+#dim(cstat_data)
+```
+
+```{r 2.2_beta_diversity, echo = FALSE , fig.height=5, fig.width=5}
+# remove synechococcus for beta diversity analysis
+syn <- cstat_data[3,]
+cstat_data <- cstat_data[-3,]
+
+# Calculate Presense Absence
+dataPA <- (cstat_data > 0)*1 
+
+# Calculating Relative Abundance
+dataREL <- cstat_data
+  for(i in 1:ncol(cstat_data)){
+    dataREL[,i] = cstat_data[,i]/sum(cstat_data[,i])
+    }  
+
+# Create Distance Matrix
+sampleREL.dist <- vegdist(decostand(t(dataREL),method="log"),method="bray")
+
+# Principal Coordinates Analysis
+cstat_pcoa <- cmdscale(sampleREL.dist,k=3,eig=TRUE,add=FALSE) 
+  # Classical (Metric) Multidimensional Scaling; returns PCoA coordinates
+    	# eig=TRUE returns eigenvalues; k = # of dimensions to calculate
+
+# Percent Variance Explained Using PCoA (Axis 1,2,3)
+explainvar1 <- round(cstat_pcoa$eig[1]/sum(cstat_pcoa$eig)*100,1) 
+explainvar2 <- round(cstat_pcoa$eig[2]/sum(cstat_pcoa$eig)*100,1)
+explainvar3 <- round(cstat_pcoa$eig[3]/sum(cstat_pcoa$eig)*100,1)
+  
+pcoap <- merge(as.data.frame(cstat_pcoa$points),design,by=0,all.x=T)
+rownames(pcoap) <- rownames(cstat_pcoa$points)
+
+#pcoap <- subset(pcoap,pcoap$limitation == "T")
+
+pdf(file = "./supporting-files/figures/pub-fig_betaPCOA.pdf", width = 5, height = 5, pointsize = 10)
+
+# Plot Parameters
+par(mar=c(5,5,1,1))#, oma=c(3,1,1,1)+0.1 )
+x.dim <- c(min(pcoap$V1)-(max(pcoap$V1)*0.1),max(pcoap$V1)+(max(pcoap$V1)*0.1))
+y.dim <- c(min(pcoap$V2)-(max(pcoap$V2)*0.1),max(pcoap$V2)+(max(pcoap$V2)*0.1))
+
+# Initiate Plot
+plot(pcoap$V1, pcoap$V2, xlab=paste("PCoA Axis 1 (",explainvar1, "%)", sep="")
+    , ylab=paste("PCoA Axis 2 (",explainvar2, "%)", sep=""), 
+    xlim=x.dim, ylim=y.dim, pch=16, cex=2.0, type="n",xaxt="n",
+    yaxt="n", cex.lab=1.5, cex.axis=1.2)
+axis(side=1, las=1)   
+axis(side=2, las=1)    
+abline(h=0, lty="dotted",col = "grey50")  
+abline(v=0, lty="dotted",col = "grey50")
+box(lwd=2)
+
+# Make Plot Symbols in PCoA Reflect Treatment
+ 
+mol.shape <- rep(NA, dim(pcoap)[1])
+  for (i in 1:length(mol.shape)){
+    if (pcoap$treatment[i] == "T"){mol.shape[i] = 21}
+    else {mol.shape[i] = 22}
+	}
+
+slope.color <- rep(NA, dim(pcoap)[1])
+  for (i in 1:length(slope.color)){
+    if (pcoap$limitation[i] == "N") {slope.color[i] = "black"}
+    else {slope.color[i] = "white"}  
+	} 
+
+# Add Points & Ellipses
+points(pcoap$V1, pcoap$V2, pch = mol.shape, cex = 3.5, 
+       bg = slope.color, col = "gray25")
+
+legend("bottomleft",pch = c(21,22, 21, 22), col = c(""))
+#text(pcoap$V1, pcoap$V2, labels = pcoap$time, col = "grey50")  
+#text(pcoap$V1, pcoap$V2, labels = pcoap$cID, pos = 1) 
+
+#dev.off()
+
+p = ggplot(pcoap, aes(x = V1, y=V2, color = treatment:limitation)) + 
+  geom_hline(yintercept = 0, col = "grey85",lty = 2) +
+  geom_vline(xintercept = 0, col = "grey55",lty=2) +
+  geom_point(size = 5) + scale_color_brewer(palette = 4) + geom_point(size = 5, col = "grey25",pch=21) + xlab(paste("PCoA Axis 1 (",explainvar1,"%",")")) + ylab(paste("PCoA Axis 2 (",explainvar2,"%",")"))
+
+ggsave(filename = "./supporting-files/figures/pub-fig_beta.pdf", plot = p, height = 6, width = 7, units = "in", scale = 1)  
+
+#p = ggplot(pcoap,aes(x=V1, y = V2, shape = treatment )) + geom_point(size =4) + theme(legend.position="none")
+#p = p + facet_grid(~cID) +  
+#  geom_path(aes(x = V1, y = V2, size = time/1.5), color = "grey80") +
+#  geom_point(aes(size = time), color = "black") + xlab("Axis.1") + ylab("Axis.2") 
+
+#print(p)
+
+#ggsave(filename = "./figure_cIDbeta.pdf", plot = p, height = 2.5, width = 10, units = "in", scale = 2)
+
+```
+
+```{r 2.2_PERMANOVA}
+#BC = t(dataREL)
+#BC = vegdist(t(dataREL),method="bray")
+#df =  design
+#results3 <- adonis(BC ~ time*treatment*limitation, data = df, 
+#                  strata = df$cID, permutations = 999, "bray")
+
+cstat.adonis.data <- t(dataREL)
+cstat.adonis.data <- merge(design,cstat.adonis.data, by=0,all.x=T)
+cstat.adonis.data <- cstat.adonis.data[-17,]
+#cstat.adonis.data <- subset(cstat.adonis.data,cstat.adonis.data$trt == "T")
+#cstat.adonis.data <- cstat.adonis.data[,1:36]
+
+results3 <- adonis(cstat.adonis.data[,6:ncol(cstat.adonis.data)] ~ 
+         limitation*treatment*time, strata = cstat.adonis.data$cID, data = cstat.adonis.data,
+       method="bray", permutations=999)
+
+
+```
+\newpage
+
+#PERMANOVA analyses for each treatment group
+```{r 2.2_PERMANOVA-lim+Ph}
+#BC = t(dataREL)
+#BC = vegdist(t(dataREL),method="bray")
+#df =  design
+#results3 <- adonis(BC ~ time*treatment*limitation, data = df, 
+#                  strata = df$cID, permutations = 999, "bray")
+
+cstat.adonis.data <- t(dataREL)
+designT <- design[design$treatment == "T",]
+cstat.adonis.data <- merge(designT,cstat.adonis.data, by=0,all.x=T)
+cstat.adonis.data <- cstat.adonis.data[-12,]
+
+
+results3 <- adonis(cstat.adonis.data[,6:ncol(cstat.adonis.data)] ~ 
+         limitation*day, strata = cstat.adonis.data$cID, data = cstat.adonis.data,
+       method="bray", permutations=999)
+
+
+```
+
+```{r 2.2_PERMANOVA-lim-Ph}
+#BC = t(dataREL)
+#BC = vegdist(t(dataREL),method="bray")
+#df =  design
+#results3 <- adonis(BC ~ time*treatment*limitation, data = df, 
+#                  strata = df$cID, permutations = 999, "bray")
+
+cstat.adonis.data <- t(dataREL)
+designC <- design[design$treatment == "C",]
+cstat.adonis.data <- merge(designC,cstat.adonis.data, by=0,all.x=T)
+
+
+results3 <- adonis(cstat.adonis.data[,6:ncol(cstat.adonis.data)] ~ 
+         limitation*day, strata = cstat.adonis.data$cID, data = cstat.adonis.data,
+       method="bray", permutations=999)
+
+
+```
+
+```{r 2.2_PERMANOVA-NL}
+#BC = t(dataREL)
+#BC = vegdist(t(dataREL),method="bray")
+#df =  design
+#results3 <- adonis(BC ~ time*treatment*limitation, data = df, 
+#                  strata = df$cID, permutations = 999, "bray")
+
+cstat.adonis.data <- t(dataREL)
+designNL <- design[design$limitation == "N",]
+cstat.adonis.data <- merge(designNL,cstat.adonis.data, by=0,all.x=T)
+
+
+results3 <- adonis(cstat.adonis.data[,6:ncol(cstat.adonis.data)] ~ 
+         treatment*day, strata = cstat.adonis.data$cID, data = cstat.adonis.data,
+       method="bray", permutations=999)
+
+
+```
+
+```{r 2.2_PERMANOVA-PL}
+#BC = t(dataREL)
+#BC = vegdist(t(dataREL),method="bray")
+#df =  design
+#results3 <- adonis(BC ~ time*treatment*limitation, data = df, 
+#                  strata = df$cID, permutations = 999, "bray")
+
+cstat.adonis.data <- t(dataREL)
+designPL <- design[design$limitation == "P",]
+cstat.adonis.data <- merge(designPL,cstat.adonis.data, by=0,all.x=T)
+cstat.adonis.data <- cstat.adonis.data[-9,]
+
+results3 <- adonis(cstat.adonis.data[,6:ncol(cstat.adonis.data)] ~ 
+         treatment*day, strata = cstat.adonis.data$cID, data = cstat.adonis.data,
+       method="bray", permutations=999)
+```
+
+```{r 2.2_temporal_composition, echo = FALSE, fig.width=7.5, fig.height=4}
+library(ggplot2)
+library(ggthemes)
+library(reshape2)
+
+# Select most abundant taxa with synechococcus (OTU3); 
+cpNo <- c(3.57,2.33,1.85,3.08,5.33,4.86,2.50,1)
+cstat_data_top <- data.frame(t(cstat_data[1:7,]),syn)
+#cstat_data_top$others <- NA
+
+#for(i in 1:nrow(cstat_data_top)){
+#  cstat_data_top[i,8] <- rowSums(t(abs(cstat_data[8:nrow(cstat_data),])))[[i]]
+#}  
+
+#adjust number of reads by mean copy number for each strain
+#for(i in 1:length(cpNo)){
+#  cstat_data_top[,i] <- cstat_data_top[,i]/cpNo[i]
+#}
+
+cstat_data_top <- t(cstat_data_top)
+
+# With Syn
+dataRELtop <- cstat_data_top
+  for(i in 1:ncol(cstat_data_top)){
+    dataRELtop[,i] = cstat_data_top[,i]/sum(cstat_data_top[,i])
+    } 
+
+top.abd.design <- merge(design,t(dataRELtop), by=0,all.x=T)
+
+colnames(top.abd.design) <- c(colnames(top.abd.design)[1:6],"Sulfitobacter","Sphingomonas",
+                              "Rhizobium","Arthrobacter","Alcanivorax","Pseudomonas","others","Synechococcus")
+
+write.csv(top.abd.design, file = "./supporting-files/data/arima-proc-rel.csv",row.names = FALSE)
+
+
+melt.abd <- melt(top.abd.design, id=c("time","day","cID","Row.names","limitation","treatment"))
+melt.abd$day <- as.numeric(as.character(melt.abd$day))
+
+
+
+tes <- melt.abd[-which(melt.abd$cID == "PL3"),]
+colnames(tes)<- c(colnames(tes)[1:6],"Taxa","value")
+p <- ggplot(tes,aes(x = day, y = value, fill = Taxa)) + 
+  geom_area(position = 'stack', colour ="black") + 
+  facet_wrap(~cID, ncol = 4) +
+  #facet_gridtreatment ~ limitation) +
+  labs(x = "Time (days)", y = "Relative Abundance")+
+  #scale_fill_grey(start = 0 , end = 0.9)
+  scale_fill_brewer()
+  
+#p$data$Taxa <- factor(p$data$Taxa, levels = #c("Pseudomonas","Alcanivorax","Arthrobacter","Rhizobium","Sphingomonas","Sulfitobacter"))
+
+print(p)
+
+ggsave(filename="./supporting-files/figures/pub-fig_taxarelabd-cid-syn.pdf", plot = p,width = 8, height = 4, units = "in",scale = 1.5)
+```
+
+```{r}
+# Without Syn
+cstat_data_top_wosyn <- cstat_data_top[-8,]
+dataRELtop_wo <- cstat_data_top_wosyn
+  for(i in 1:ncol(cstat_data_top_wosyn)){
+    dataRELtop_wo[,i] = cstat_data_top_wosyn[,i]/sum(cstat_data_top_wosyn[,i])
+    } 
+relAbd <- merge(design,t(dataRELtop_wo), by=0,all.x=T)
+relAbdflow <- merge(relAbd,flow.counts, by.x = "Row.names", by.y = "seq.ID")
+relAbdflow <- relAbdflow[,c(1:13,18:19)]
+
+for(i in 1:nrow(relAbdflow)){
+  relAbdflow[i,7:13] <- relAbdflow[i,7:13]*relAbdflow[i,15]
+}
+
+relabdflow2 <- relAbdflow[,1:12]
+relabdflow2 = merge(relabdflow2,sync,by="day")
+
+
+colnames(relAbd) <- c(colnames(relAbd)[1:6],"Sulfitobacter","Sphingomonas",
+                              "Rhizobium","Arthrobacter","Alcanivorax","Pseudomonas","008")
+melt.abd <- melt(relAbd, id=c("time","day","cID","Row.names","limitation","treatment"))
+melt.abd$day <- as.numeric(as.character(melt.abd$day))
+
+
+
+tes <- melt.abd[-which(melt.abd$cID == "PL3"),]
+colnames(tes)<- c(colnames(tes)[1:6],"Taxa","value")
+
+# as cID
+p2 <- ggplot(tes,aes(x = day, y = value, fill = Taxa)) + 
+  geom_area(position = 'stack', colour ="black") + 
+  facet_wrap(~cID, ncol = 4) +
+  #facet_gridtreatment ~ limitation) +
+  labs(x = "Time (days)", y = "Relative Abundance")+
+  #scale_fill_grey(start = 0 , end = 0.9)
+  scale_fill_brewer()
+print(p2)
+
+
+```
+
+```{r}
+colnames(relAbdflow) <- c(colnames(relAbdflow)[1:6],"Sulfitobacter","Sphingomonas",
+                              "Rhizobium","Arthrobacter","Alcanivorax","Pseudomonas","008","flow.syn","flow.het")
+melt.abd <- melt(relAbdflow, id=c("time.x","day","cID.x","Row.names","limitation","treatment"))
+melt.abd$day <- as.numeric(as.character(melt.abd$day))
+
+
+
+tes <- melt.abd[-which(melt.abd$cID == "PL3"),]
+colnames(tes)<- c(colnames(tes)[1:6],"Taxa","value")
+#taxa <- unique(tes$Taxa)[1:6]
+#tes = tes[tes$Taxa == taxa,]
+
+p3 <- ggplot(tes,aes(x = day, y = value, fill = Taxa)) + 
+  stat_summary(fun.y = "mean",geom="line")+
+  geom_area(position = 'stack', colour ="black") + 
+  facet_wrap(trt ~ lim) +
+  #facet_gridtreatment ~ limitation) +
+  labs(x = "Time (days)", y = "Relative Abundance")+
+  #scale_fill_grey(start = 0 , end = 0.9)
+  scale_fill_brewer()
+print(p3)
+```
+
+```{r perm-tax}
+
+dat = p2$data
+#dat$time = as.factor(dat$time)
+for(i in unique(dat$Taxa)){
+  tmpdat = dat[dat$Taxa == i,]
+  
+  fit <- lme(value ~ limitation * time * treatment, random = ~ 1 | cID,
+                 correlation = corAR1(form = ~ 1 | cID),
+                 data = tmpdat, na.action = na.exclude)
+  fit.dat = anova.lme(fit, type = "marginal", adjustSigma = F)
+  print(i)
+  print(fit.dat)
+  
+}
+
+# calculate the mean relative densities for each of the major taxa for each treatment
+dat.rhi <- dat[dat$Taxa == "Sulfitobacter",]
+aggregate(value~ limitation + treatment, data = dat.rhi, mean)
+aggregate(value~ limitation + treatment, data = dat.rhi, sd)
+aggregate(value~ cID, data = dat.rhi, mean, na.action = na.exclude)
+aggregate(value~ limitation, data = dat.rhi, mean)
+aggregate(value~ limitation, data = dat.rhi, sd)
+
+```
+
+
+```{r}
+
+#install.packages("Hmisc")
+require(Hmisc)
+
+mat.N <- as.matrix(top.abd.design[,7:13][top.abd.design$limitation=="N",])
+mat.P <- as.matrix(top.abd.design[,7:13][top.abd.design$limitation=="P",])
+mat.P <- na.omit(mat.P)
+ts.cor.N <- rcorr(mat.N,type="pearson")
+ts.cor.P <- rcorr(mat.P,type="pearson")
+
+syn.N <- mat.N[,3]
+syn.P <- mat.P[,3]
+sulf.N <- mat.N[,1]
+sph.N <- mat.N[,2]
+ath.N <- mat.N[,5]
+ath.N <- mat.N[,5]
+
+for(i in unique(top.abd.design$cID)[-9]){
+  tmp <- as.matrix(top.abd.design[top.abd.design$cID == i,7:13])
+  tmp.cor <- rcorr(tmp,type="pearson")
+  print(i)
+  print(tmp.cor)
+}
+```
+```{r}
+pdf(file = "./figure_NLccf.pdf", width = 5, height = 4.5, pointsize= 10)
+
+par(mfrow = c(2,4))
+for(i in 1:7){
+  ccf(syn.N,mat.N[,i], main = colnames(mat.N)[i])
+}
+
+dev.off()
+#Sphingomonas = out of phase, Rhizobium out of phase, Athrobacter
+```
+
+```{r}
+pdf(file = "./figure_PLccf.pdf", width = 5, height = 4.5, pointsize = 10)
+
+
+par(mfrow = c(2,4))
+for(i in 1:7){
+  ccf(syn.P,mat.P[,i], main = colnames(mat.P)[i])
+}
+
+dev.off()
+#Sulfitobacter out of phase. lag -2, Rhizobium, 
+```
