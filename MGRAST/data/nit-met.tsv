@@ -1,0 +1,736 @@
+metagenome	level 1	level 2	level 3	function	abundance	avg eValue	avg % ident	avg align len	# hits	
+4698560.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	223	-19.08	91.07	52.21	21	
+4698570.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	64	-17.84	92.35	49.27	12	
+4698546.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	98	-18.72	91.19	50.99	18	
+4698578.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	267	-21.30	87.77	57.54	18	
+4698553.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	155	-20.08	91.89	53.02	16	
+4698542.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	86	-15.97	91.48	45.71	20	
+4698574.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	68	-19.52	91.63	52.58	12	
+4698551.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	152	-18.95	91.63	51.56	18	
+4698569.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	145	-20.25	91.64	53.78	16	
+4698548.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	257	-19.57	91.09	52.51	22	
+4698554.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	29	-18.72	89.53	51.62	9	
+4698562.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	32	-18.81	88.67	52.56	11	
+4698582.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	297	-20.31	92.70	53.07	26	
+4698577.3	Nitrogen Metabolism	-	Allantoin Utilization	2-hydroxy-3-oxopropionate reductase (EC 1.1.1.60)	243	-20.26	91.42	53.55	20	
+4698542.3	Nitrogen Metabolism	-	Allantoin Utilization	Allantoate amidohydrolase (EC 3.5.3.9)	1	-5.00	74.07	27.00	1	
+4698542.3	Nitrogen Metabolism	-	Allantoin Utilization	Allantoinase (EC 3.5.2.5)	1	-5.00	72.41	29.00	1	
+4698574.3	Nitrogen Metabolism	-	Allantoin Utilization	Allantoinase (EC 3.5.2.5)	1	-5.00	72.41	29.00	1	
+4698582.3	Nitrogen Metabolism	-	Allantoin Utilization	Allantoinase (EC 3.5.2.5)	1	-5.00	72.41	29.00	1	
+4698560.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	4	-27.50	84.13	70.25	2	
+4698570.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	1	-29.00	80.00	75.00	1	
+4698546.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	9	-11.00	85.67	37.50	2	
+4698578.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	6	-25.00	80.65	67.00	3	
+4698553.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	9	-22.00	86.61	58.00	3	
+4698542.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	3	-17.67	82.18	52.33	1	
+4698574.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	2	-19.50	83.41	53.00	2	
+4698551.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	2	-25.00	85.05	66.50	2	
+4698569.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	7	-17.60	86.02	50.80	2	
+4698548.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	1	-10.00	80.00	40.00	1	
+4698562.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	1	-13.00	78.00	50.00	1	
+4698582.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	4	-17.75	78.56	56.50	2	
+4698577.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate dehydrogenase (EC 1.1.1.154)	9	-19.67	84.61	55.00	2	
+4698560.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	11	-18.12	85.07	51.25	4	
+4698570.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	3	-11.33	91.27	34.67	3	
+4698546.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	9	-18.22	82.43	55.45	3	
+4698578.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	4	-16.67	77.29	52.00	3	
+4698553.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	8	-18.33	79.78	53.45	6	
+4698542.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	7	-17.00	81.67	51.14	3	
+4698574.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	5	-10.80	83.99	38.20	5	
+4698551.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	6	-14.33	84.99	43.50	5	
+4698569.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	8	-19.00	77.95	53.86	4	
+4698548.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	12	-14.33	87.21	43.58	5	
+4698562.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	1	-13.00	75.00	44.00	1	
+4698582.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	12	-16.92	84.58	50.33	5	
+4698577.3	Nitrogen Metabolism	-	Allantoin Utilization	Ureidoglycolate hydrolase (EC 3.5.3.19)	16	-11.00	82.44	39.33	5	
+4698578.3	Nitrogen Metabolism	-	Amidase clustered with urea and nitrile hydratase functions	Amidase clustered with urea ABC transporter and nitrile hydratase functions	1	-5.00	70.37	27.00	1	
+4698542.3	Nitrogen Metabolism	-	Amidase clustered with urea and nitrile hydratase functions	Amidase clustered with urea ABC transporter and nitrile hydratase functions	1	-5.00	70.37	27.00	1	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	456	-24.16	94.08	58.00	36	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	137	-19.38	91.60	50.23	34	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	182	-21.50	92.37	54.39	30	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	525	-23.77	91.77	58.55	48	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	326	-21.84	94.36	53.93	26	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	150	-18.83	93.56	48.84	27	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	147	-21.71	91.69	54.99	28	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	350	-21.81	93.72	53.94	29	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	249	-22.98	94.24	55.95	22	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	425	-21.03	92.08	53.53	41	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	72	-20.31	92.79	51.65	17	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	74	-23.82	92.89	58.17	19	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	554	-22.66	92.39	56.34	44	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter	459	-20.56	93.05	52.27	46	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	59	-19.64	99.67	46.70	2	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	31	-17.92	99.36	44.15	3	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	31	-18.14	99.71	44.14	3	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	20	-16.90	99.17	42.35	2	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	33	-16.00	99.75	40.64	1	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	25	-17.20	99.45	43.20	3	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	30	-19.52	99.78	46.88	2	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	45	-17.78	99.61	43.31	2	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	34	-17.44	99.76	42.74	1	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	76	-19.04	97.85	47.27	5	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	3	-23.00	100.00	50.67	1	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	3	-24.00	100.00	52.00	1	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	94	-19.00	98.56	46.42	4	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Ammonium transporter family	88	-19.52	99.53	46.50	3	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	372	-22.66	94.71	54.05	28	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	132	-19.78	95.19	49.16	19	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	168	-21.42	95.14	52.34	21	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	346	-22.93	91.35	56.16	27	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	258	-21.99	94.98	52.92	25	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	169	-18.83	95.62	47.81	19	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	145	-23.71	94.51	56.05	18	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	280	-20.52	94.72	50.41	29	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	267	-22.72	94.24	54.82	22	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	494	-21.75	94.89	52.74	33	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	49	-21.47	91.19	53.16	15	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	47	-20.50	92.64	51.11	14	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	543	-22.09	94.50	53.47	38	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Ferredoxin-dependent glutamate synthase (EC 1.4.7.1)	367	-20.99	94.95	51.55	29	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	36	-15.96	99.40	43.52	4	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	15	-17.38	99.38	46.54	6	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	21	-14.88	99.37	41.94	4	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	25	-15.14	99.45	42.23	6	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	25	-18.19	99.02	47.72	4	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	21	-14.38	98.85	41.50	5	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	13	-18.36	99.58	47.82	4	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	28	-15.30	98.80	42.96	5	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	26	-17.30	99.27	45.87	4	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	36	-17.11	99.39	45.68	4	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	3	-11.67	100.00	35.33	2	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	3	-12.00	100.00	36.00	1	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	38	-19.53	99.24	49.80	5	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Global nitrogen regulatory protein, CRP family of transcriptional regulators	39	-19.38	98.88	50.00	6	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	948	-27.18	94.67	62.11	48	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	214	-22.88	92.01	56.08	34	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	313	-27.29	93.33	62.81	40	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	1239	-27.09	93.47	62.77	48	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	787	-27.81	97.12	61.60	38	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	193	-23.52	94.11	56.18	38	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	220	-25.68	91.97	61.38	44	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	793	-24.93	95.33	57.72	46	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	776	-28.57	97.37	62.89	35	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	1088	-24.82	93.47	58.72	66	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	156	-24.63	94.10	58.16	25	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	173	-26.84	93.61	62.07	25	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	1309	-26.83	93.26	62.31	66	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	931	-24.20	93.51	57.72	59	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	3	-29.00	82.95	73.67	3	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	3	-15.33	91.66	45.67	3	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	8	-21.12	87.52	55.88	4	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	3	-25.67	91.39	61.33	3	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	5	-13.60	82.86	45.00	2	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	7	-17.50	92.49	47.50	4	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	2	-27.00	76.53	77.00	1	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	3	-27.67	92.80	64.33	1	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	6	-16.80	88.84	48.60	4	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	6	-19.17	81.24	56.83	2	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	8	-19.50	84.13	55.38	3	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] putative GlxC chain (EC 1.4.1.13)	10	-16.43	91.49	46.00	5	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	197	-27.54	94.65	61.92	15	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	59	-23.00	91.89	55.41	15	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	73	-25.90	93.20	60.14	12	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	239	-28.07	93.31	63.32	20	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	134	-28.78	96.88	62.45	9	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	64	-21.08	92.68	52.25	15	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	58	-26.02	91.61	61.29	15	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	151	-26.18	94.98	59.20	14	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	153	-28.63	96.86	62.45	9	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	213	-25.01	93.21	58.02	20	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	27	-27.77	94.01	62.42	6	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	31	-28.83	95.10	63.77	7	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	242	-27.08	92.00	62.52	23	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	203	-25.46	93.45	58.83	15	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	294	-23.06	86.26	60.58	12	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	91	-23.81	85.03	62.45	12	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	110	-21.43	86.44	57.70	11	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	375	-24.16	87.38	61.97	13	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	206	-22.55	86.46	59.51	11	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	84	-19.42	87.22	53.41	9	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	93	-25.53	85.19	65.54	11	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	244	-20.45	86.14	55.91	13	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	217	-23.03	86.89	60.04	12	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	319	-22.77	85.52	60.53	14	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	52	-22.46	89.44	57.33	5	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	57	-23.79	88.64	60.26	6	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	342	-23.14	85.80	61.10	15	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamate-ammonia-ligase adenylyltransferase (EC 2.7.7.42)	225	-22.06	86.23	58.47	15	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	9	-11.89	89.64	37.11	1	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	2	-10.50	79.54	41.50	1	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	3	-25.67	90.14	63.00	1	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	3	-19.33	87.91	51.67	1	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	4	-20.00	85.29	54.25	1	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	3	-25.00	90.87	60.33	1	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	3	-9.67	84.35	37.67	1	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	8	-12.62	88.54	39.25	1	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	4	-28.75	88.34	69.00	1	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	8	-13.62	86.65	43.00	1	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	7	-14.71	86.94	44.43	1	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase protein GlxB (EC 2.4.2.-)	13	-18.50	87.16	50.70	2	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	68	-33.18	98.76	67.50	1	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	20	-24.05	98.89	52.00	1	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	16	-26.88	98.85	57.19	1	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	90	-29.82	98.72	62.34	1	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	67	-27.66	98.34	59.20	1	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	13	-26.38	98.79	56.69	1	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	22	-27.77	98.63	58.50	1	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	55	-27.69	98.47	58.85	1	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	77	-28.75	98.50	60.62	1	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	105	-25.39	97.97	55.02	2	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	8	-26.38	98.63	58.50	1	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	9	-27.78	99.02	60.22	1	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	79	-26.47	98.30	56.89	1	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine amidotransferase, class-II	64	-29.31	98.44	61.58	1	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	302	-25.45	95.68	57.88	32	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	71	-23.48	96.38	54.09	20	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	131	-25.02	95.77	56.87	21	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	280	-26.50	94.13	60.63	30	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	213	-24.77	97.43	55.98	30	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	100	-23.18	95.61	53.88	22	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	85	-24.56	96.88	55.84	22	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	238	-24.00	95.73	55.14	27	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	225	-26.40	97.45	58.46	27	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	289	-22.66	96.98	52.65	37	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	28	-26.33	95.10	58.81	10	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	34	-25.84	94.94	58.32	11	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	342	-25.80	96.16	58.30	36	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type I (EC 6.3.1.2)	281	-24.22	96.79	55.11	35	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type II, eukaryotic (EC 6.3.1.2)	1	-27.00	85.96	57.00	1	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type II, eukaryotic (EC 6.3.1.2)	1	-6.00	95.83	24.00	1	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type II, eukaryotic (EC 6.3.1.2)	1	-18.00	97.67	43.00	1	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type II, eukaryotic (EC 6.3.1.2)	1	-14.00	96.97	33.00	1	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type II, eukaryotic (EC 6.3.1.2)	1	-35.00	88.57	70.00	1	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	99	-19.70	98.20	48.33	8	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	54	-19.39	93.46	49.73	8	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	54	-20.35	99.26	48.81	2	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	138	-21.73	92.24	54.90	8	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	48	-18.88	99.45	46.02	1	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	85	-18.98	99.19	46.41	4	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	58	-19.58	93.93	50.12	9	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	72	-18.68	98.10	46.42	7	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	50	-19.42	99.76	46.64	2	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	172	-20.97	95.26	51.66	11	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	12	-21.73	96.46	52.82	4	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	13	-22.33	95.71	54.08	5	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	181	-22.29	95.84	53.62	9	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	120	-20.10	96.11	49.45	7	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	130	-25.11	95.76	58.71	13	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	35	-22.77	96.71	55.00	6	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	48	-21.17	95.40	52.79	11	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	174	-25.18	96.56	58.96	12	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	123	-26.96	98.22	61.05	8	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	38	-22.08	96.61	53.69	10	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	62	-23.33	96.51	55.49	9	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	86	-21.53	95.68	52.86	11	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	131	-28.47	97.59	63.76	6	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	127	-23.24	96.74	55.36	13	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	16	-22.94	93.31	55.88	6	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	24	-23.80	94.31	56.68	7	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	158	-25.58	97.56	59.18	9	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(I)	104	-23.91	96.69	56.21	10	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	71	-23.89	93.86	58.00	3	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	22	-30.82	96.42	68.55	2	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	28	-19.75	89.36	53.18	5	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	97	-23.43	92.61	58.08	9	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	89	-28.64	96.23	65.34	3	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	22	-18.32	90.27	49.82	5	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	26	-30.88	96.34	68.73	2	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	71	-24.27	93.23	59.10	4	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	83	-27.08	95.98	62.69	3	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	69	-25.82	94.78	61.51	6	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	13	-23.00	91.42	58.23	3	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	16	-22.50	92.61	57.12	4	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	71	-25.03	94.28	60.34	7	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulation protein NR(II) (EC 2.7.3.-)	74	-22.88	93.68	56.49	6	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	109	-24.13	97.46	57.70	15	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	37	-21.75	96.41	54.29	13	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	32	-24.13	97.75	57.90	13	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	132	-23.34	95.58	57.58	18	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	78	-20.93	98.04	52.06	16	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	30	-20.04	98.27	50.85	13	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	30	-22.33	93.28	55.93	14	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	81	-22.40	97.92	54.51	15	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	99	-25.96	98.09	60.69	15	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	133	-21.13	95.25	53.44	26	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	18	-19.94	95.21	51.71	9	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	22	-18.60	96.35	48.75	8	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	158	-23.12	94.89	57.18	26	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	Nitrogen regulatory protein P-II	105	-20.54	95.31	52.66	19	
+4698560.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	369	-24.12	90.05	59.09	17	
+4698570.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	95	-21.91	90.39	55.21	13	
+4698546.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	116	-24.10	91.32	58.55	11	
+4698578.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	456	-25.73	90.34	61.77	16	
+4698553.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	289	-23.77	90.07	58.44	15	
+4698542.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	99	-21.85	90.67	54.98	11	
+4698574.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	110	-23.92	89.77	59.28	16	
+4698551.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	273	-23.30	91.08	57.20	15	
+4698569.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	318	-26.18	90.39	62.66	18	
+4698548.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	375	-21.98	89.35	55.67	21	
+4698554.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	55	-24.67	90.31	60.51	9	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	55	-29.11	91.73	67.34	7	
+4698582.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	431	-23.54	88.61	59.12	21	
+4698577.3	Nitrogen Metabolism	-	Ammonia assimilation	[Protein-PII] uridylyltransferase (EC 2.7.7.59)	315	-22.53	89.28	56.75	18	
+4698562.3	Nitrogen Metabolism	-	Ammonia assimilation	ammonium/methylammonium permease	1	-8.00	70.00	40.00	1	
+4698560.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	134	-24.04	94.72	56.34	14	
+4698570.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	36	-18.85	90.03	50.12	13	
+4698546.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	47	-24.89	93.18	58.22	14	
+4698578.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	123	-23.24	89.49	56.89	18	
+4698553.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	91	-24.69	96.45	55.72	9	
+4698542.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	44	-20.27	93.85	49.98	13	
+4698574.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	44	-21.86	90.50	54.44	13	
+4698551.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	70	-22.94	95.12	53.37	11	
+4698569.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	88	-26.66	95.77	59.73	12	
+4698548.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	162	-20.37	90.74	52.10	21	
+4698554.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	20	-22.50	91.46	54.55	6	
+4698562.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	27	-23.35	91.31	56.27	10	
+4698582.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	154	-21.61	90.64	54.04	23	
+4698577.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Carbonic anhydrase (EC 4.2.1.1)	113	-20.91	91.83	52.19	19	
+4698560.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	4	-18.00	72.65	59.75	2	
+4698546.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	4	-24.50	76.94	66.75	1	
+4698578.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	19	-14.11	78.20	47.32	5	
+4698542.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	2	-27.00	79.45	73.00	1	
+4698551.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	5	-7.20	78.41	33.40	2	
+4698569.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	2	-15.00	84.66	44.50	2	
+4698554.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	2	-24.50	76.83	70.00	1	
+4698562.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	2	-24.00	78.79	66.00	1	
+4698577.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, ATP-binding protein	1	-26.00	80.30	66.00	1	
+4698560.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	8	-20.88	82.33	57.88	2	
+4698546.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	1	-13.00	76.74	43.00	1	
+4698578.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	18	-23.38	86.34	59.00	4	
+4698553.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	1	-5.00	72.41	29.00	1	
+4698542.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	1	-27.00	76.39	72.00	1	
+4698551.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	8	-13.71	87.40	42.14	2	
+4698569.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	1	-5.00	73.33	30.00	1	
+4698548.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	3	-18.00	86.49	48.67	1	
+4698554.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	1	-5.00	92.31	26.00	1	
+4698582.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	3	-16.33	86.60	47.00	1	
+4698577.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, permease protein	1	-19.00	91.67	48.00	1	
+4698560.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	26	-18.00	82.20	51.53	3	
+4698546.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	18	-26.36	86.33	62.79	3	
+4698578.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	45	-22.61	82.87	58.72	4	
+4698542.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	19	-20.18	85.48	52.73	4	
+4698551.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	10	-19.50	84.00	51.00	3	
+4698548.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	2	-14.50	71.33	47.50	2	
+4698562.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate ABC transporter, substrate binding protein	2	-21.50	69.40	69.00	1	
+4698560.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	91	-21.84	94.64	53.58	10	
+4698570.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	24	-20.50	95.32	51.78	6	
+4698546.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	22	-20.11	93.34	50.74	8	
+4698578.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	102	-23.09	91.38	58.06	11	
+4698553.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	63	-23.38	94.45	57.02	6	
+4698542.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	13	-19.00	96.46	47.92	6	
+4698574.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	19	-20.38	94.68	51.81	6	
+4698551.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	82	-23.17	94.54	56.83	10	
+4698569.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	66	-25.30	94.53	60.37	6	
+4698548.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	101	-22.40	94.71	55.62	9	
+4698554.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	11	-22.86	92.58	56.57	3	
+4698562.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	8	-15.17	94.73	41.67	3	
+4698582.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	133	-21.08	96.37	52.24	10	
+4698577.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyanate hydratase (EC 4.2.1.104)	86	-22.13	95.36	54.68	7	
+4698560.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	7	-12.50	64.62	52.60	3	
+4698570.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	2	-11.00	61.73	53.00	2	
+4698546.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	8	-8.11	65.71	43.78	4	
+4698578.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	16	-11.86	64.21	51.05	2	
+4698553.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	8	-11.92	65.05	49.92	2	
+4698542.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	3	-12.50	62.32	53.00	2	
+4698574.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	6	-10.29	65.51	45.72	3	
+4698551.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	3	-14.00	63.44	54.33	1	
+4698569.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	12	-12.67	64.60	52.53	3	
+4698548.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	21	-9.76	67.53	44.38	4	
+4698554.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	3	-11.33	62.39	48.33	1	
+4698562.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	3	-8.33	63.58	41.00	1	
+4698582.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	15	-12.33	64.63	51.78	4	
+4698577.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Cyn operon transcriptional activator	9	-8.60	66.97	43.60	5	
+4698582.3	Nitrogen Metabolism	-	Cyanate hydrolysis	Transcriptional activator similar to cyn operon regulator	1	-9.00	64.00	50.00	1	
+4698560.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	8	-18.57	82.80	52.14	4	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	15	-19.00	85.11	51.62	8	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	3	-16.00	79.29	52.33	1	
+4698578.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	68	-19.60	81.36	55.08	9	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	4	-10.75	71.99	42.00	3	
+4698542.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	3	-16.67	81.12	51.33	1	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	17	-23.46	85.05	60.38	6	
+4698551.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	4	-21.50	83.08	57.25	4	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	3	-8.67	78.79	35.33	2	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	27	-15.71	80.97	46.81	8	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	35	-15.89	83.17	46.45	6	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Copper-containing nitrite reductase (EC 1.7.2.1)	17	-16.13	80.09	49.67	9	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide -responding transcriptional regulator NnrR (Crp/Fnr family)	1	-17.00	84.62	52.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide -responding transcriptional regulator NnrR (Crp/Fnr family)	1	-27.00	82.19	73.00	1	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide -responding transcriptional regulator NnrR (Crp/Fnr family)	1	-10.00	69.05	42.00	1	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	2	-20.00	74.90	63.00	2	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	3	-11.50	72.19	46.00	2	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	1	-13.00	65.38	52.00	1	
+4698542.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	2	-16.00	76.37	53.50	2	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	2	-16.50	69.55	59.50	2	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	1	-13.00	64.81	54.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorD	2	-15.00	64.69	59.50	2	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorQ	1	-14.00	80.00	50.00	1	
+4698578.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorQ	2	-16.00	89.42	42.00	2	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitric oxide reductase activation protein NorQ	1	-12.00	80.00	45.00	1	
+4698560.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	1	-23.00	98.04	51.00	1	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	3	-9.67	95.66	31.00	3	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	2	-22.00	95.12	54.00	2	
+4698578.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	1	-5.00	88.46	26.00	1	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	2	-21.50	91.04	53.50	2	
+4698542.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	1	-13.00	96.97	33.00	1	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	3	-18.00	87.96	48.33	2	
+4698551.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	1	-29.00	98.36	61.00	1	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	1	-33.00	86.59	82.00	1	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	3	-29.67	91.09	65.33	3	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit B (EC 1.7.99.7)	4	-23.25	93.59	54.00	3	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit C (EC 1.7.99.7)	1	-12.00	91.67	36.00	1	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitric-oxide reductase subunit C (EC 1.7.99.7)	1	-11.00	91.18	34.00	1	
+4698560.3	Nitrogen Metabolism	-	Denitrification	Nitrite reductase accessory protein NirV	1	-19.00	65.08	63.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrite reductase accessory protein NirV	1	-9.00	71.05	38.00	1	
+4698560.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	4	-8.50	66.99	46.75	1	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	2	-8.00	65.94	45.50	1	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	3	-19.67	68.31	74.00	2	
+4698578.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	3	-16.33	66.46	69.67	1	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	9	-10.89	67.11	53.33	1	
+4698551.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	1	-9.00	80.00	40.00	1	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	10	-11.78	69.20	53.45	2	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	2	-11.50	70.92	49.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	5	-11.25	74.92	46.50	2	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation periplasmic protein NosX	2	-13.00	72.44	53.00	1	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosD	1	-19.00	86.54	52.00	1	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosD	1	-21.00	86.00	50.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosD	1	-22.00	77.97	59.00	1	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosF (ATPase)	1	-5.00	76.67	30.00	1	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosF (ATPase)	1	-5.00	76.67	30.00	1	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosF (ATPase)	2	-14.50	76.33	52.50	2	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosF (ATPase)	1	-30.00	81.71	82.00	1	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosF (ATPase)	1	-14.00	65.52	58.00	1	
+4698560.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	165	-15.82	74.30	53.08	8	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	70	-17.91	76.50	56.74	7	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	52	-17.88	77.18	53.77	6	
+4698578.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	172	-15.17	74.08	51.91	9	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	154	-15.73	75.71	52.08	8	
+4698542.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	41	-15.00	75.92	49.50	7	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	74	-17.74	75.36	56.46	6	
+4698551.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	116	-13.84	75.61	48.18	7	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	170	-16.64	75.59	54.61	6	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	169	-15.82	75.35	52.63	8	
+4698554.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	23	-14.19	73.49	49.72	5	
+4698562.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	33	-15.52	72.58	52.86	4	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	182	-15.54	75.01	52.23	6	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein NosR	153	-16.65	75.06	54.39	5	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein, outer-membrane lipoprotein NosL	2	-18.00	74.18	58.00	2	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein, outer-membrane lipoprotein NosL	1	-11.00	85.29	34.00	1	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein, outer-membrane lipoprotein NosL	2	-24.00	79.50	66.50	2	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein, outer-membrane lipoprotein NosL	1	-5.00	67.86	28.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation protein, outer-membrane lipoprotein NosL	1	-5.00	67.86	28.00	1	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation transmembrane protein NosY	1	-25.00	75.32	77.00	1	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation transmembrane protein NosY	1	-14.00	91.11	45.00	1	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation transmembrane protein NosY	2	-17.50	91.71	50.00	1	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitrous oxide reductase maturation transmembrane protein NosY	1	-14.00	93.18	44.00	1	
+4698570.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	1	-7.00	90.32	31.00	1	
+4698546.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	1	-43.00	95.18	83.00	1	
+4698553.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	3	-22.33	89.64	56.33	2	
+4698542.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	1	-20.00	92.16	51.00	1	
+4698574.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	1	-39.00	92.59	81.00	1	
+4698569.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	1	-33.00	91.55	71.00	1	
+4698548.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	2	-22.50	90.92	54.50	2	
+4698582.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	4	-29.50	90.48	65.50	2	
+4698577.3	Nitrogen Metabolism	-	Denitrification	Nitrous-oxide reductase (EC 1.7.99.6)	3	-22.67	92.18	53.33	1	
+4698546.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	1	-19.00	67.19	64.00	1	
+4698578.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	1	-16.00	65.00	60.00	1	
+4698553.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	2	-10.50	67.62	41.00	2	
+4698542.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	1	-7.00	75.00	32.00	1	
+4698574.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	1	-15.00	62.30	61.00	1	
+4698569.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	2	-7.00	78.47	38.50	2	
+4698548.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	1	-15.00	65.52	58.00	1	
+4698582.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	2	-14.50	68.75	55.50	2	
+4698577.3	Nitrogen Metabolism	-	Denitrification	NnrS protein involved in response to NO	4	-12.00	66.35	51.25	4	
+4698578.3	Nitrogen Metabolism	-	Denitrification	NnrU family protein, required for expression of nitric oxide and nitrite reductases (Nir and Nor)	1	-23.00	85.48	62.00	1	
+4698542.3	Nitrogen Metabolism	-	Denitrification	NnrU family protein, required for expression of nitric oxide and nitrite reductases (Nir and Nor)	1	-6.00	66.67	36.00	1	
+4698562.3	Nitrogen Metabolism	-	Denitrification	NnrU family protein, required for expression of nitric oxide and nitrite reductases (Nir and Nor)	1	-22.00	61.11	72.00	1	
+4698577.3	Nitrogen Metabolism	-	Denitrification	NnrU family protein, required for expression of nitric oxide and nitrite reductases (Nir and Nor)	2	-5.50	60.55	40.00	2	
+4698560.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	378	-22.05	90.18	57.21	25	
+4698570.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	86	-19.89	91.75	52.76	15	
+4698546.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	104	-21.50	91.35	56.02	17	
+4698578.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	301	-24.67	90.92	61.40	17	
+4698553.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	336	-23.42	92.05	58.52	18	
+4698542.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	91	-20.49	92.43	53.51	14	
+4698574.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	94	-22.63	91.41	57.75	13	
+4698551.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	263	-21.62	91.06	56.01	21	
+4698569.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	365	-23.66	91.73	59.41	19	
+4698548.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	386	-21.39	91.41	55.75	29	
+4698554.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	36	-23.32	90.62	58.84	8	
+4698562.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	45	-24.86	89.18	62.82	8	
+4698582.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	352	-21.93	91.40	56.61	31	
+4698577.3	Nitrogen Metabolism	-	Dissimilatory nitrite reductase	Uroporphyrinogen-III methyltransferase (EC 2.1.1.107)	238	-23.97	91.49	59.84	26	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	402	-21.77	87.88	56.71	29	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	138	-20.16	89.34	53.36	13	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	179	-22.27	89.68	56.16	23	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	424	-21.77	86.54	57.23	29	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	310	-23.07	89.28	58.29	14	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	161	-20.19	89.96	52.37	20	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	153	-21.66	89.40	55.86	12	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	326	-20.43	88.00	54.00	23	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	335	-23.39	88.87	59.11	12	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	445	-20.25	89.91	52.74	28	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	50	-20.46	86.65	54.84	6	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	67	-23.13	87.11	59.46	10	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	581	-21.51	89.21	55.64	26	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	433	-21.32	88.58	55.29	20	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type heme lyase subunit nrfE, nitrite reductase complex assembly	1	-5.00	100.00	16.00	1	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type protein NapC	1	-24.00	98.04	51.00	1	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type protein NapC	3	-27.67	90.12	64.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type protein NapC	1	-37.00	85.37	82.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type protein NapC	3	-28.67	90.45	66.33	1	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type protein NapC	1	-30.00	89.55	67.00	1	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Cytochrome c-type protein NapC	1	-35.00	82.28	79.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	61	-20.61	99.75	48.34	1	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	25	-22.00	99.32	50.52	1	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	28	-18.32	99.88	44.22	1	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	31	-19.77	99.36	47.03	1	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	40	-17.52	99.73	43.17	2	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	25	-18.60	99.73	44.68	1	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	31	-20.29	99.47	47.61	1	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	46	-20.15	99.36	47.70	1	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	47	-16.81	99.36	42.17	2	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	92	-20.89	99.56	48.35	2	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	3	-21.00	99.33	47.00	1	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	3	-16.67	100.00	40.67	1	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	102	-21.71	99.41	49.97	4	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin--nitrite reductase (EC 1.7.7.1)	68	-20.48	99.72	47.52	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin-type protein NapG (periplasmic nitrate reductase)	1	-21.00	97.92	48.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Ferredoxin-type protein NapG (periplasmic nitrate reductase)	1	-18.00	100.00	41.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	152	-24.50	94.14	58.72	18	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	47	-23.08	90.04	58.80	12	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	57	-23.56	91.73	58.20	11	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	143	-24.01	92.50	59.16	17	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	102	-24.52	95.54	58.45	10	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	46	-21.64	91.26	55.36	13	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	52	-28.25	90.93	67.58	10	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	112	-23.05	93.83	56.90	16	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	110	-25.21	96.22	58.94	10	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	154	-23.71	94.14	57.94	16	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	19	-23.84	94.81	57.47	5	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	19	-24.00	94.04	58.42	6	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	272	-23.17	93.48	57.05	19	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, ATP-binding protein	119	-23.03	93.03	56.70	15	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	342	-27.76	93.39	61.67	27	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	98	-22.29	92.27	53.90	21	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	101	-22.52	91.06	54.63	24	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	348	-27.97	92.38	63.22	28	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	225	-27.95	95.71	61.30	19	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	81	-23.50	92.32	55.53	20	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	77	-24.40	92.70	57.07	19	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	228	-25.10	93.74	56.77	26	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	225	-29.41	95.78	63.65	18	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	336	-24.32	91.16	57.79	31	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	43	-28.91	93.50	63.75	11	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	56	-27.85	93.42	62.30	13	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	363	-25.80	91.49	60.45	29	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, nitrate-binding protein	263	-25.73	91.71	59.36	25	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	163	-26.60	94.10	62.87	14	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	32	-26.67	96.30	61.81	6	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	61	-23.06	92.40	57.57	10	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	236	-24.73	94.43	59.86	9	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	155	-26.26	95.71	61.80	7	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	48	-19.05	92.86	50.05	8	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	39	-28.54	96.39	65.40	5	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	112	-24.19	93.98	58.64	10	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	179	-26.20	95.89	61.56	8	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	203	-22.10	93.74	55.16	15	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	21	-23.61	96.33	56.50	4	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	18	-26.93	95.56	62.67	4	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	234	-22.83	93.45	56.79	13	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate ABC transporter, permease protein	227	-24.14	93.55	58.80	13	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate reductase cytochrome c550-type subunit	1	-18.00	93.33	45.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate reductase cytochrome c550-type subunit	1	-8.00	84.38	32.00	1	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate reductase cytochrome c550-type subunit	3	-8.33	86.83	31.67	3	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate reductase cytochrome c550-type subunit	1	-32.00	95.45	66.00	1	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	2	-5.50	61.60	37.50	2	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	1	-5.00	70.27	37.00	1	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	3	-5.00	70.27	37.00	1	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	1	-5.00	65.71	35.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	1	-5.00	70.27	37.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	3	-5.00	70.27	37.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	1	-5.00	70.27	37.00	1	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	4	-5.60	72.97	35.40	4	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	2	-5.00	67.99	36.00	2	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	5	-5.00	68.45	36.20	2	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	8	-5.25	69.24	37.38	3	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite response regulator protein	8	-7.00	68.21	41.62	3	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite sensor protein (EC 2.7.3.-)	1	-28.00	92.31	65.00	1	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite sensor protein (EC 2.7.3.-)	1	-32.00	92.96	71.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	52	-16.83	98.58	43.54	5	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	19	-18.68	98.97	46.26	3	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	37	-22.43	96.59	54.65	3	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	45	-23.36	95.23	56.27	4	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	41	-17.24	98.89	43.80	3	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	36	-19.25	97.14	48.45	3	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	19	-22.05	98.51	52.11	3	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	42	-15.60	97.87	41.67	4	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	35	-16.91	98.23	43.29	3	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	79	-20.72	99.45	49.48	3	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	7	-19.00	92.36	48.00	2	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	10	-26.50	94.40	61.20	2	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	92	-20.83	99.46	49.97	3	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrate/nitrite transporter	63	-18.38	97.08	46.54	5	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	592	-26.25	92.78	61.69	38	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	112	-26.89	93.77	61.78	18	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	210	-23.90	88.48	60.72	28	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	639	-26.23	91.20	62.68	26	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	515	-26.89	94.21	61.78	32	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	163	-20.24	89.90	52.51	29	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	127	-29.09	93.32	66.17	18	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	313	-24.64	93.68	58.38	26	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	559	-27.38	94.36	62.72	29	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	534	-23.65	92.40	57.28	34	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	63	-23.78	93.44	57.38	8	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	73	-25.71	92.04	61.26	12	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	511	-24.77	91.52	59.93	39	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] large subunit (EC 1.7.1.4)	497	-24.78	92.07	59.47	36	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	39	-20.28	82.66	55.08	8	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	13	-20.15	85.01	53.85	3	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	20	-18.84	85.68	50.95	7	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	59	-20.72	83.89	55.73	10	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	30	-21.00	87.65	54.73	5	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	13	-18.46	84.20	50.31	5	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	21	-20.67	84.14	54.67	4	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	32	-16.10	81.89	47.83	9	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	40	-23.32	86.70	59.40	4	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	44	-21.12	84.02	56.17	13	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	9	-18.00	83.68	51.11	4	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	13	-21.61	82.85	57.54	3	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	51	-22.76	85.36	58.98	12	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase [NAD(P)H] small subunit (EC 1.7.1.4)	51	-18.85	84.15	51.94	7	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	3	-12.00	67.50	45.50	2	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	6	-17.83	75.93	55.00	5	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	7	-15.86	72.29	54.00	5	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	1	-9.00	63.64	44.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	4	-17.00	78.51	51.00	4	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	1	-7.00	64.10	39.00	1	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	3	-10.33	75.86	41.00	2	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	6	-18.17	75.72	56.17	4	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	1	-15.00	82.22	45.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	181	-23.79	98.56	54.01	5	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	58	-23.55	98.11	54.56	5	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	49	-25.57	98.86	56.61	3	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	142	-27.27	98.37	60.59	4	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	140	-26.10	98.65	58.14	4	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	37	-22.05	99.05	50.81	4	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	44	-23.30	98.46	53.58	4	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	133	-22.36	98.81	52.00	5	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	176	-24.91	98.50	56.10	7	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	189	-22.51	98.52	52.59	6	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	11	-24.64	97.70	55.27	2	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	15	-31.92	96.92	67.08	4	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	221	-24.72	98.86	55.84	7	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Nitrite transporter from formate/nitrite family	147	-25.21	99.07	56.51	4	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase component NapD	1	-8.00	65.96	47.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase component NapE	1	-12.00	80.95	42.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase component NapE	1	-10.00	87.88	33.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	1	-15.00	92.31	39.00	1	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	1	-24.00	80.00	65.00	1	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	2	-35.50	94.29	74.00	1	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	2	-21.00	86.19	55.00	1	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	2	-19.50	90.00	48.50	1	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	1	-40.00	91.46	82.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	1	-14.00	94.59	37.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	3	-17.00	89.69	45.67	1	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	1	-12.00	97.14	35.00	1	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	2	-17.50	95.22	43.50	2	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Periplasmic nitrate reductase precursor (EC 1.7.99.4)	4	-15.33	85.14	44.00	3	
+4698560.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	141	-23.78	92.15	60.55	8	
+4698570.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	38	-21.08	91.90	56.03	5	
+4698546.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	39	-24.41	90.42	63.46	6	
+4698578.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	139	-25.11	91.00	64.02	9	
+4698553.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	111	-25.50	93.49	63.30	7	
+4698542.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	34	-21.26	90.13	58.03	7	
+4698574.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	43	-24.05	92.01	61.63	6	
+4698551.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	107	-24.08	93.14	60.59	6	
+4698569.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	122	-25.90	92.71	64.25	7	
+4698548.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	114	-21.49	91.89	56.85	8	
+4698554.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	20	-23.45	93.82	59.50	4	
+4698562.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	25	-24.36	93.18	61.68	3	
+4698582.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	133	-22.54	90.84	59.41	9	
+4698577.3	Nitrogen Metabolism	-	Nitrate and nitrite ammonification	Response regulator NasT	119	-25.71	90.88	65.38	8	
+4698560.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	2	-32.50	84.82	72.00	1	
+4698570.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	8	-17.57	81.75	48.86	5	
+4698578.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	23	-25.13	86.81	58.65	2	
+4698574.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	11	-21.75	84.18	55.12	5	
+4698551.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	3	-20.00	85.71	48.67	1	
+4698548.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	21	-23.19	86.94	55.81	5	
+4698554.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	1	-12.00	85.00	40.00	1	
+4698562.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	1	-12.00	85.00	40.00	1	
+4698582.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	27	-25.48	85.31	60.05	4	
+4698577.3	Nitrogen Metabolism	-	Nitric oxide synthase	Manganese superoxide dismutase (EC 1.15.1.1)	9	-15.75	86.72	44.50	4	
+4698560.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	90	-18.09	77.42	55.81	20	
+4698570.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	23	-12.25	73.13	46.54	12	
+4698546.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	43	-21.09	81.88	60.00	11	
+4698578.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	118	-21.84	84.47	58.47	18	
+4698553.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	22	-16.25	80.79	50.00	8	
+4698542.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	29	-15.36	81.78	49.68	10	
+4698574.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	21	-14.90	75.04	48.72	14	
+4698551.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	51	-13.82	79.15	46.02	14	
+4698569.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	26	-16.35	81.65	49.31	10	
+4698548.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	88	-14.17	75.96	49.23	18	
+4698554.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	11	-24.00	84.12	64.33	5	
+4698562.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	14	-25.58	84.61	66.25	6	
+4698582.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	130	-15.83	75.23	53.64	24	
+4698577.3	Nitrogen Metabolism	-	Nitric oxide synthase	putative cytochrome P450 hydroxylase	61	-15.24	75.50	51.78	19	
+4698582.3	Nitrogen Metabolism	-	Nitrogen fixation	Nitrogenase (iron-iron) transcriptional regulator	1	-8.00	70.73	41.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrogen fixation	Nitrogenase (molybdenum-iron)-specific transcriptional regulator NifA	1	-7.00	64.10	39.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrogen fixation	Nitrogenase (vanadium-iron) transcriptional regulator VnfA	1	-5.00	72.73	33.00	1	
+4698578.3	Nitrogen Metabolism	-	Nitrogen fixation	Nitrogenase (vanadium-iron) transcriptional regulator VnfA	1	-5.00	64.52	31.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	3	-9.00	67.44	43.00	1	
+4698578.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	2	-8.00	66.64	42.00	1	
+4698553.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	1	-9.00	67.44	43.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	2	-9.00	67.44	43.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	2	-6.00	66.75	37.50	1	
+4698548.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	1	-9.00	67.44	43.00	1	
+4698554.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	1	-9.00	67.44	43.00	1	
+4698562.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	2	-7.00	67.06	39.50	1	
+4698582.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	1	-9.00	67.44	43.00	1	
+4698577.3	Nitrogen Metabolism	-	Nitrosative stress	Flavohemoprotein	1	-9.00	67.44	43.00	1	
+4698560.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	3	-22.00	69.57	74.00	2	
+4698570.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	2	-15.33	64.85	62.33	2	
+4698578.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	8	-18.78	68.15	67.67	7	
+4698553.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	1	-14.00	69.81	53.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	1	-25.00	70.89	79.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	3	-15.00	67.72	58.67	3	
+4698569.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	4	-18.00	66.51	68.00	2	
+4698548.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	2	-10.00	71.29	45.50	2	
+4698554.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	2	-11.00	70.09	47.50	2	
+4698562.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	2	-11.50	69.22	49.00	2	
+4698582.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	7	-20.29	67.45	70.72	3	
+4698577.3	Nitrogen Metabolism	-	Nitrosative stress	Functional role page for Anaerobic nitric oxide reductase transcription regulator NorR	4	-15.40	65.03	61.80	4	
+4698560.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	3	-7.00	86.35	27.00	1	
+4698570.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	2	-11.50	66.19	49.50	2	
+4698546.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	1	-8.00	74.36	39.00	1	
+4698578.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	14	-14.75	67.25	58.00	3	
+4698553.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	1	-21.00	76.19	63.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	2	-8.50	77.65	33.00	2	
+4698551.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	1	-6.00	85.19	27.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	2	-11.00	73.79	44.00	2	
+4698548.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	11	-12.00	73.42	43.67	3	
+4698554.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	1	-8.00	67.57	37.00	1	
+4698562.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	2	-12.50	62.09	58.00	1	
+4698582.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	11	-11.62	74.09	43.46	2	
+4698577.3	Nitrogen Metabolism	-	Nitrosative stress	Nitric oxide-dependent regulator DnrN or NorA	3	-16.00	69.30	59.67	3	
+4698560.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	36	-23.45	86.71	61.80	4	
+4698570.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	11	-21.18	90.18	56.64	1	
+4698546.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	7	-25.00	86.64	63.14	2	
+4698578.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	38	-20.51	88.62	55.26	3	
+4698553.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	25	-25.85	88.52	65.96	3	
+4698542.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	6	-17.62	79.09	55.62	3	
+4698574.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	8	-21.38	88.22	57.00	1	
+4698551.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	27	-20.89	87.80	55.79	4	
+4698569.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	22	-21.61	88.42	58.44	3	
+4698548.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	30	-17.55	85.46	51.76	4	
+4698554.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	4	-19.50	92.66	53.25	1	
+4698562.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	6	-17.50	93.10	49.17	1	
+4698582.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	33	-20.65	87.45	56.16	4	
+4698577.3	Nitrogen Metabolism	-	Nitrosative stress	Nitrite-sensitive transcriptional repressor NsrR	26	-18.56	83.95	55.69	4	
+4698546.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	1	-19.00	67.19	64.00	1	
+4698578.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	1	-16.00	65.00	60.00	1	
+4698553.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	2	-10.50	67.62	41.00	2	
+4698542.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	1	-7.00	75.00	32.00	1	
+4698574.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	1	-15.00	62.30	61.00	1	
+4698569.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	2	-7.00	78.47	38.50	2	
+4698548.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	1	-15.00	65.52	58.00	1	
+4698582.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	2	-14.50	68.75	55.50	2	
+4698577.3	Nitrogen Metabolism	-	Nitrosative stress	NnrS protein involved in response to NO	4	-12.00	66.35	51.25	4	

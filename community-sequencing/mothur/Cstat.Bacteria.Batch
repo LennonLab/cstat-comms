@@ -1,0 +1,134 @@
+# Initial Processing
+## Rename the Standard flowgram format (.sff) for processing
+system(cp G3I0UTA01.sff syn1A.sff)
+system(cp G3I0UTA02.sff syn1B.sff)
+system(cp G3I0UTA03.sff syn2A.sff)
+system(cp G3I0UTA04.sff syn2B.sff)
+
+sffinfo(sff=syn1A.sff-syn1B.sff-syn2A.sff-syn2B.sff, flow=F)
+## Evaluate the summary stats for the seq files
+summary.seqs(fasta=syn1A.fasta, processors=10)
+summary.seqs(fasta=syn1B.fasta, processors=10)
+summary.seqs(fasta=syn2A.fasta, processors=10)
+summary.seqs(fasta=syn2B.fasta, processors=10)
+
+# Separate processing for each set
+# syn1A
+## Summary stats
+summary.seqs(fasta=syn1A.fasta, processors=10)
+
+## Trim the primer sequences and barcodes from the '.oligos' file
+## qwindowaverage sets the minimum quality score, higher quality scores indicate less error
+trim.seqs(fasta=syn1A.fasta, oligos=syn1.oligos, qfile=syn1A.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+summary.seqs(fasta=syn1A.trim.fasta, processors=10)
+
+## Remove any sequences with ambiguous bases and anything shorter than 200 bp
+screen.seqs(fasta=syn1A.trim.fasta, group=syn1A.groups, minlength=200)
+summary.seqs(fasta=syn1A.trim.good.fasta, processors=10)
+
+## Create table with the number of times each unique sequence shows up in each group
+count.groups(group=syn1A.good.groups)
+
+## merge identical sequence reads to reduce processing time
+unique.seqs(fasta=syn1A.trim.good.fasta)
+summary.seqs(fasta=syn1A.trim.good.unique.fasta, name=syn1A.trim.good.names, processors=10)
+count.groups(group=syn1A.good.groups)
+
+# syn1B
+summary.seqs(fasta=syn1B.fasta, processors=10)
+trim.seqs(fasta=syn1B.fasta, oligos=syn1.oligos, qfile=syn1B.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+summary.seqs(fasta=syn1B.trim.fasta, processors=10)
+screen.seqs(fasta=syn1B.trim.fasta, group=syn1B.groups, minlength=200)
+summary.seqs(fasta=syn1B.trim.good.fasta, processors=10)
+count.groups(group=syn1B.good.groups)
+unique.seqs(fasta=syn1B.trim.good.fasta)
+summary.seqs(fasta=syn1B.trim.good.unique.fasta, name=syn1B.trim.good.names, processors=10)
+count.groups(group=syn1B.good.groups)
+
+# syn2A
+summary.seqs(fasta=syn2A.fasta, processors=10)
+trim.seqs(fasta=syn2A.fasta, oligos=syn2.oligos, qfile=syn2A.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+summary.seqs(fasta=syn2A.trim.fasta, processors=10)
+screen.seqs(fasta=syn2A.trim.fasta, group=syn2A.groups, minlength=200)
+summary.seqs(fasta=syn2A.trim.good.fasta, processors=10)
+count.groups(group=syn2A.good.groups)
+unique.seqs(fasta=syn2A.trim.good.fasta)
+summary.seqs(fasta=syn2A.trim.good.unique.fasta, name=syn2A.trim.good.names, processors=10)
+count.groups(group=syn2A.good.groups)
+
+# syn2B
+summary.seqs(fasta=syn2B.fasta)
+trim.seqs(fasta=syn2B.fasta, oligos=syn2.oligos, qfile=syn2B.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+summary.seqs(fasta=syn2B.trim.fasta, processors=10)
+screen.seqs(fasta=syn2B.trim.fasta, group=syn2B.groups, minlength=200)
+summary.seqs(fasta=syn2B.trim.good.fasta, processors=10)
+count.groups(group=syn2B.good.groups)
+unique.seqs(fasta=syn2B.trim.good.fasta)
+summary.seqs(fasta=syn2B.trim.good.unique.fasta, name=syn2B.trim.good.names, processors=10)
+count.groups(group=syn2B.good.groups)
+
+# Merge All Files
+merge.files(input=syn1A.trim.good.unique.fasta-syn1B.trim.good.unique.fasta-syn2A.trim.good.unique.fasta-syn2B.trim.good.unique.fasta, output=Cstat_all.fasta)
+merge.files(input=syn1A.trim.good.names-syn1B.trim.good.names-syn2A.trim.good.names-syn2B.trim.good.names, output=Cstat_all.names)
+merge.files(input=syn1A.good.groups-syn1B.good.groups-syn2A.good.groups-syn2B.good.groups, output=Cstat_all.groups)
+summary.seqs(fasta=Cstat_all.fasta, name=Cstat_all.names, processors=10)
+count.groups(group=Cstat_all.groups)
+
+# Alignment
+## align.seqs finds the closest template match using the supplied database using kmer
+## 3 major databases: SILVA, GreenGenes, and RDP. Selection is dependent on question
+align.seqs(fasta=Cstat_all.fasta, template=silva.bacteria.fasta, flip=T, processors=10)
+
+## make sure that everything overlaps in the same coordinates
+summary.seqs(fasta=Cstat_all.align, name=Cstat_all.names, processors=10)
+screen.seqs(fasta=Cstat_all.align, group=Cstat_all.groups, name=Cstat_all.names, start=13862, minlength=200, processors=10)
+
+## remove overhangs at both ends
+filter.seqs(fasta=Cstat_all.good.align, vertical=T, trump=., processors=10)
+
+## split the sequences by group and then sort by most to least abundant and are different (diffs = n) by 1 nucleotide
+pre.cluster(fasta=Cstat_all.good.filter.fasta, name=Cstat_all.good.names, diffs=1, processors=10)
+summary.seqs(fasta=Cstat_all.good.filter.precluster.fasta, name=Cstat_all.good.filter.precluster.names, processors=10)
+count.groups(group=Cstat_all.good.groups)
+
+## By this point, we have removed as much sequencing error as possible
+
+# Chimera Check
+## Identify chimeras
+chimera.uchime(fasta=Cstat_all.good.filter.precluster.fasta, reference=silva.gold.ng.fasta, processors=10)
+
+## Remove flagged chimeric sequences from data set
+remove.seqs(accnos=Cstat_all.good.filter.precluster.ref.uchime.accnos, fasta=Cstat_all.good.filter.precluster.fasta, name=Cstat_all.good.filter.precluster.names, group=Cstat_all.good.groups)
+summary.seqs(fasta=Cstat_all.good.filter.precluster.pick.fasta, name=Cstat_all.good.filter.precluster.pick.names, processors=10)
+
+## sequence reduction of up to ~10% is acceptable
+
+# Remove Contaminants
+## the primers used should only amplify bacterial 16s DNA; mitochondrial + cholorplast + Eukarotes + Archea have no business here!
+## because we're interested in the heterotropic bacteria, remove synechococcus using the RDP data set 
+## if we leave the synechococcus in the analysis, we can use it to standardize abundances downstream
+classify.seqs(fasta=Cstat_all.good.filter.precluster.pick.fasta, name=Cstat_all.good.filter.precluster.pick.names, group=Cstat_all.good.pick.groups, reference=silva.bacteria.fasta, taxonomy=silva.bacteria.silva.tax, probs=f cutoff=80, processors=10)
+remove.lineage(fasta=Cstat_all.good.filter.precluster.pick.fasta, name=Cstat_all.good.filter.precluster.pick.names, group=Cstat_all.good.pick.groups, taxonomy=Cstat_all.good.filter.precluster.pick.silva.wang.taxonomy, taxon=Mitochondria-Bacteria;Cyanobacteria-Archaea-Eukarya-unknown)
+summary.seqs(fasta=Cstat_all.good.filter.precluster.pick.pick.fasta, name=Cstat_all.good.filter.precluster.pick.pick.names, processors=10)
+count.groups(group=Cstat_all.good.pick.pick.groups)
+
+
+# Rename Files
+system(mv ./Cstat_all.good.filter.precluster.pick.pick.fasta ./Cstat_all.final.fasta) 
+system(mv ./Cstat_all.good.filter.precluster.pick.pick.names ./Cstat_all.final.names)
+system(mv ./Cstat_all.good.pick.pick.groups ./Cstat_all.final.groups)
+system(mv ./Cstat_all.good.filter.precluster.pick.silva.wang.taxonomy ./Cstat_all.final.taxonomy)
+
+# 97% OTUs Shared
+## split the sequences into bins then cluster within a bin, taxlevel = 3 corresponds to the phylum level
+cluster.split(fasta=Cstat_all.final.fasta, name=Cstat_all.final.names, taxonomy=Cstat_all.final.taxonomy, splitmethod=classify, taxlevel=3, processors=10)
+
+## Specify the level of taxonomic simiarity
+make.shared(list=Cstat_all.final.an.list, label=unique-0.03-0.05-0.10)
+classify.otu(list=Cstat_all.final.an.list, name=Cstat_all.final.names, taxonomy=Cstat_all.final.taxonomy, label=unique-0.03-0.05-0.10)
+
+#system(cp ./UL.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.an.unique_list.shared ./UL.bac.final.shared)
+#system(cp ./UL.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.an.unique_list.0.03.cons.taxonomy ./UL.bac.final.0.03.taxonomy)
+#system(cp ./UL.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.an.unique_list.0.03.cons.tax.summary ./UL.bac.final.0.03.tax.summary)
+#system(cp ./UL.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.an.unique_list.0.05.cons.taxonomy ./UL.bac.final.0.05.taxonomy)
+#system(cp ./UL.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.an.unique_list.0.05.cons.tax.summary ./UL.bac.final.0.05.tax.summary)

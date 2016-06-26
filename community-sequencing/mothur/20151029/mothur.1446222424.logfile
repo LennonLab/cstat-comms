@@ -1,0 +1,1771 @@
+Linux version
+
+Using ReadLine
+
+Using default file location /N/soft/rhel6/mothur/reference_files/
+
+Running 64Bit Version
+
+mothur v.1.36.1
+Last updated: 7/27/2015
+
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+University of Michigan
+pschloss@umich.edu
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+Type 'quit()' to exit program
+Batch Mode
+
+
+mothur > system(cp G3I0UTA01.sff syn1A.sff)
+
+
+mothur > system(cp G3I0UTA02.sff syn1B.sff)
+
+
+mothur > system(cp G3I0UTA03.sff syn2A.sff)
+
+
+mothur > system(cp G3I0UTA04.sff syn2B.sff)
+
+
+mothur > sffinfo(sff=syn1A.sff-syn1B.sff-syn2A.sff-syn2B.sff, flow=F)
+Extracting info from syn1A.sff ...
+10000
+20000
+30000
+40000
+50000
+60000
+66975
+It took 17 secs to extract 66975.
+Extracting info from syn1B.sff ...
+10000
+20000
+30000
+40000
+50000
+60000
+63236
+It took 15 secs to extract 63236.
+Extracting info from syn2A.sff ...
+10000
+20000
+30000
+40000
+50000
+60000
+70000
+80000
+90000
+100000
+110000
+117383
+It took 29 secs to extract 117383.
+Extracting info from syn2B.sff ...
+10000
+20000
+30000
+40000
+50000
+60000
+70000
+77548
+It took 21 secs to extract 77548.
+
+Output File Names: 
+syn1A.fasta
+syn1A.qual
+syn1B.fasta
+syn1B.qual
+syn2A.fasta
+syn2A.qual
+syn2B.fasta
+syn2B.qual
+
+
+mothur > summary.seqs(fasta=syn1A.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	44	44	0	2	1
+2.5%-tile:	1	525	525	0	4	1675
+25%-tile:	1	535	535	0	4	16744
+Median: 	1	541	541	0	5	33488
+75%-tile:	1	545	545	0	5	50232
+97.5%-tile:	1	556	556	1	6	65301
+Maximum:	1	899	899	33	16	66975
+Mean:	1	534.849	534.849	0.0807465	4.71979
+# of Seqs:	66975
+
+Output File Names: 
+syn1A.summary
+
+It took 5 secs to summarize 66975 sequences.
+
+mothur > summary.seqs(fasta=syn1B.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	40	40	0	2	1
+2.5%-tile:	1	527	527	0	4	1581
+25%-tile:	1	536	536	0	4	15810
+Median: 	1	542	542	0	5	31619
+75%-tile:	1	547	547	0	5	47428
+97.5%-tile:	1	557	557	1	6	61656
+Maximum:	1	1126	1126	35	22	63236
+Mean:	1	537.494	537.494	0.101177	4.72871
+# of Seqs:	63236
+
+Output File Names: 
+syn1B.summary
+
+It took 1 secs to summarize 63236 sequences.
+
+mothur > summary.seqs(fasta=syn2A.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	45	45	0	2	1
+2.5%-tile:	1	528	528	0	4	2935
+25%-tile:	1	537	537	0	4	29346
+Median: 	1	543	543	0	5	58692
+75%-tile:	1	547	547	0	5	88038
+97.5%-tile:	1	558	558	1	6	114449
+Maximum:	1	1150	1150	36	31	117383
+Mean:	1	541.237	541.237	0.0628626	4.76601
+# of Seqs:	117383
+
+Output File Names: 
+syn2A.summary
+
+It took 3 secs to summarize 117383 sequences.
+
+mothur > summary.seqs(fasta=syn2B.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	45	45	0	3	1
+2.5%-tile:	1	527	527	0	4	1939
+25%-tile:	1	536	536	0	5	19388
+Median: 	1	542	542	0	5	38775
+75%-tile:	1	546	546	0	5	58162
+97.5%-tile:	1	556	556	1	6	75610
+Maximum:	1	1195	1195	62	10	77548
+Mean:	1	540.195	540.195	0.040001	4.80193
+# of Seqs:	77548
+
+Output File Names: 
+syn2B.summary
+
+It took 6 secs to summarize 77548 sequences.
+
+mothur > summary.seqs(fasta=syn1A.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	44	44	0	2	1
+2.5%-tile:	1	525	525	0	4	1675
+25%-tile:	1	535	535	0	4	16744
+Median: 	1	541	541	0	5	33488
+75%-tile:	1	545	545	0	5	50232
+97.5%-tile:	1	556	556	1	6	65301
+Maximum:	1	899	899	33	16	66975
+Mean:	1	534.849	534.849	0.0807465	4.71979
+# of Seqs:	66975
+
+Output File Names: 
+syn1A.summary
+
+It took 1 secs to summarize 66975 sequences.
+
+mothur > trim.seqs(fasta=syn1A.fasta, oligos=syn1.oligos, qfile=syn1A.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+
+Using 10 processors.
+Appending files from process 36785
+Appending files from process 36786
+Appending files from process 36787
+Appending files from process 36788
+Appending files from process 36789
+Appending files from process 36790
+Appending files from process 36791
+Appending files from process 36792
+Appending files from process 36793
+
+Group count: 
+126NL2	3040
+126NL3	3003
+126PL1	2638
+126PL2	2904
+126PL4	3245
+126PL5	3794
+149NL1	2024
+149NL2	2259
+149NL3	1675
+149PL1	3782
+149PL2	5693
+149PL3	2983
+149PL4	2769
+198NL1	3077
+198NL3	2934
+198PL1	3301
+198PL3	3324
+198PL4	2760
+233PL2	2581
+257NL3	2614
+257PL2	4060
+Total of all groups is 64460
+
+Output File Names: 
+syn1A.trim.fasta
+syn1A.scrap.fasta
+syn1A.trim.qual
+syn1A.scrap.qual
+syn1A.groups
+
+
+mothur > summary.seqs(fasta=syn1A.trim.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	50	50	0	3	1
+2.5%-tile:	1	73	73	0	4	1612
+25%-tile:	1	231	231	0	4	16116
+Median: 	1	280	280	0	5	32231
+75%-tile:	1	395	395	0	5	48346
+97.5%-tile:	1	404	404	0	5	62849
+Maximum:	1	428	428	0	8	64460
+Mean:	1	297.519	297.519	0	4.59251
+# of Seqs:	64460
+
+Output File Names: 
+syn1A.trim.summary
+
+It took 3 secs to summarize 64460 sequences.
+
+mothur > screen.seqs(fasta=syn1A.trim.fasta, group=syn1A.groups, minlength=200)
+
+Using 10 processors.
+
+Output File Names: 
+syn1A.trim.good.fasta
+syn1A.trim.bad.accnos
+syn1A.good.groups
+
+
+It took 17 secs to screen 64460 sequences.
+
+mothur > summary.seqs(fasta=syn1A.trim.good.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	221	221	0	4	1402
+25%-tile:	1	241	241	0	4	14011
+Median: 	1	382	382	0	5	28022
+75%-tile:	1	396	396	0	5	42033
+97.5%-tile:	1	405	405	0	5	54642
+Maximum:	1	428	428	0	8	56043
+Mean:	1	325.384	325.384	0	4.65659
+# of Seqs:	56043
+
+Output File Names: 
+syn1A.trim.good.summary
+
+It took 4 secs to summarize 56043 sequences.
+
+mothur > count.groups(group=syn1A.good.groups)
+126NL2 contains 2722.
+126NL3 contains 2603.
+126PL1 contains 2412.
+126PL2 contains 2698.
+126PL4 contains 3078.
+126PL5 contains 3479.
+149NL1 contains 1759.
+149NL2 contains 1842.
+149NL3 contains 1317.
+149PL1 contains 3345.
+149PL2 contains 4325.
+149PL3 contains 2705.
+149PL4 contains 2418.
+198NL1 contains 2828.
+198NL3 contains 2700.
+198PL1 contains 2922.
+198PL3 contains 2928.
+198PL4 contains 2299.
+233PL2 contains 2208.
+257NL3 contains 2014.
+257PL2 contains 3441.
+
+Total seqs: 56043.
+
+Output File Names: 
+syn1A.good.count.summary
+
+
+mothur > unique.seqs(fasta=syn1A.trim.good.fasta)
+56043	22150
+
+Output File Names: 
+syn1A.trim.good.names
+syn1A.trim.good.unique.fasta
+
+
+mothur > summary.seqs(fasta=syn1A.trim.good.unique.fasta, name=syn1A.trim.good.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	221	221	0	4	1402
+25%-tile:	1	241	241	0	4	14011
+Median: 	1	382	382	0	5	28022
+75%-tile:	1	396	396	0	5	42033
+97.5%-tile:	1	405	405	0	5	54642
+Maximum:	1	428	428	0	8	56043
+Mean:	1	325.384	325.384	0	4.65659
+# of unique seqs:	22150
+total # of seqs:	56043
+
+Output File Names: 
+syn1A.trim.good.unique.summary
+
+It took 3 secs to summarize 56043 sequences.
+
+mothur > count.groups(group=syn1A.good.groups)
+126NL2 contains 2722.
+126NL3 contains 2603.
+126PL1 contains 2412.
+126PL2 contains 2698.
+126PL4 contains 3078.
+126PL5 contains 3479.
+149NL1 contains 1759.
+149NL2 contains 1842.
+149NL3 contains 1317.
+149PL1 contains 3345.
+149PL2 contains 4325.
+149PL3 contains 2705.
+149PL4 contains 2418.
+198NL1 contains 2828.
+198NL3 contains 2700.
+198PL1 contains 2922.
+198PL3 contains 2928.
+198PL4 contains 2299.
+233PL2 contains 2208.
+257NL3 contains 2014.
+257PL2 contains 3441.
+
+Total seqs: 56043.
+
+Output File Names: 
+syn1A.good.count.summary
+
+
+mothur > summary.seqs(fasta=syn1B.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	40	40	0	2	1
+2.5%-tile:	1	527	527	0	4	1581
+25%-tile:	1	536	536	0	4	15810
+Median: 	1	542	542	0	5	31619
+75%-tile:	1	547	547	0	5	47428
+97.5%-tile:	1	557	557	1	6	61656
+Maximum:	1	1126	1126	35	22	63236
+Mean:	1	537.494	537.494	0.101177	4.72871
+# of Seqs:	63236
+
+Output File Names: 
+syn1B.summary
+
+It took 12 secs to summarize 63236 sequences.
+
+mothur > trim.seqs(fasta=syn1B.fasta, oligos=syn1.oligos, qfile=syn1B.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+
+Using 10 processors.
+Appending files from process 36843
+Appending files from process 36844
+Appending files from process 36845
+Appending files from process 36846
+Appending files from process 36847
+Appending files from process 36848
+Appending files from process 36849
+Appending files from process 36850
+Appending files from process 36851
+
+Group count: 
+126NL2	2767
+126NL3	2674
+126PL1	2454
+126PL2	2759
+126PL4	3121
+126PL5	3864
+149NL1	2007
+149NL2	2022
+149NL3	1509
+149PL1	3449
+149PL2	5307
+149PL3	2938
+149PL4	2647
+198NL1	3101
+198NL3	2925
+198PL1	3022
+198PL3	2905
+198PL4	2545
+233PL2	2229
+257NL3	1619
+257PL2	3530
+Total of all groups is 59394
+
+Output File Names: 
+syn1B.trim.fasta
+syn1B.scrap.fasta
+syn1B.trim.qual
+syn1B.scrap.qual
+syn1B.groups
+
+
+mothur > summary.seqs(fasta=syn1B.trim.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	50	50	0	3	1
+2.5%-tile:	1	72	72	0	4	1485
+25%-tile:	1	223	223	0	4	14849
+Median: 	1	242	242	0	4	29698
+75%-tile:	1	383	383	0	5	44546
+97.5%-tile:	1	401	401	0	5	57910
+Maximum:	1	435	435	0	8	59394
+Mean:	1	263.177	263.177	0	4.50187
+# of Seqs:	59394
+
+Output File Names: 
+syn1B.trim.summary
+
+It took 1 secs to summarize 59394 sequences.
+
+mothur > screen.seqs(fasta=syn1B.trim.fasta, group=syn1B.groups, minlength=200)
+
+Using 10 processors.
+
+Output File Names: 
+syn1B.trim.good.fasta
+syn1B.trim.bad.accnos
+syn1B.good.groups
+
+
+It took 5 secs to screen 59394 sequences.
+
+mothur > summary.seqs(fasta=syn1B.trim.good.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	218	218	0	4	1207
+25%-tile:	1	231	231	0	4	12063
+Median: 	1	255	255	0	5	24126
+75%-tile:	1	390	390	0	5	36188
+97.5%-tile:	1	402	402	0	5	47044
+Maximum:	1	435	435	0	7	48250
+Mean:	1	296.4	296.4	0	4.57824
+# of Seqs:	48250
+
+Output File Names: 
+syn1B.trim.good.summary
+
+It took 2 secs to summarize 48250 sequences.
+
+mothur > count.groups(group=syn1B.good.groups)
+126NL2 contains 2203.
+126NL3 contains 2215.
+126PL1 contains 2101.
+126PL2 contains 2418.
+126PL4 contains 2831.
+126PL5 contains 3421.
+149NL1 contains 1625.
+149NL2 contains 1548.
+149NL3 contains 1147.
+149PL1 contains 2889.
+149PL2 contains 3804.
+149PL3 contains 2436.
+149PL4 contains 2052.
+198NL1 contains 2671.
+198NL3 contains 2546.
+198PL1 contains 2463.
+198PL3 contains 2443.
+198PL4 contains 1923.
+233PL2 contains 1740.
+257NL3 contains 1097.
+257PL2 contains 2677.
+
+Total seqs: 48250.
+
+Output File Names: 
+syn1B.good.count.summary
+
+
+mothur > unique.seqs(fasta=syn1B.trim.good.fasta)
+48250	17910
+
+Output File Names: 
+syn1B.trim.good.names
+syn1B.trim.good.unique.fasta
+
+
+mothur > summary.seqs(fasta=syn1B.trim.good.unique.fasta, name=syn1B.trim.good.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	218	218	0	4	1207
+25%-tile:	1	231	231	0	4	12063
+Median: 	1	255	255	0	5	24126
+75%-tile:	1	390	390	0	5	36188
+97.5%-tile:	1	402	402	0	5	47044
+Maximum:	1	435	435	0	7	48250
+Mean:	1	296.4	296.4	0	4.57824
+# of unique seqs:	17910
+total # of seqs:	48250
+
+Output File Names: 
+syn1B.trim.good.unique.summary
+
+It took 2 secs to summarize 48250 sequences.
+
+mothur > count.groups(group=syn1B.good.groups)
+126NL2 contains 2203.
+126NL3 contains 2215.
+126PL1 contains 2101.
+126PL2 contains 2418.
+126PL4 contains 2831.
+126PL5 contains 3421.
+149NL1 contains 1625.
+149NL2 contains 1548.
+149NL3 contains 1147.
+149PL1 contains 2889.
+149PL2 contains 3804.
+149PL3 contains 2436.
+149PL4 contains 2052.
+198NL1 contains 2671.
+198NL3 contains 2546.
+198PL1 contains 2463.
+198PL3 contains 2443.
+198PL4 contains 1923.
+233PL2 contains 1740.
+257NL3 contains 1097.
+257PL2 contains 2677.
+
+Total seqs: 48250.
+
+Output File Names: 
+syn1B.good.count.summary
+
+
+mothur > summary.seqs(fasta=syn2A.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	45	45	0	2	1
+2.5%-tile:	1	528	528	0	4	2935
+25%-tile:	1	537	537	0	4	29346
+Median: 	1	543	543	0	5	58692
+75%-tile:	1	547	547	0	5	88038
+97.5%-tile:	1	558	558	1	6	114449
+Maximum:	1	1150	1150	36	31	117383
+Mean:	1	541.237	541.237	0.0628626	4.76601
+# of Seqs:	117383
+
+Output File Names: 
+syn2A.summary
+
+It took 2 secs to summarize 117383 sequences.
+
+mothur > trim.seqs(fasta=syn2A.fasta, oligos=syn2.oligos, qfile=syn2A.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+
+Using 10 processors.
+Appending files from process 36899
+Appending files from process 36900
+Appending files from process 36901
+Appending files from process 36902
+Appending files from process 36903
+Appending files from process 36904
+Appending files from process 36905
+Appending files from process 36906
+Appending files from process 36907
+
+Group count: 
+126NL1	10860
+126NL5	8201
+149NL5	2408
+198NL2	4987
+198NL5	9052
+198PL2	4938
+198PL5	6044
+233NL1	3748
+233NL2	4675
+233NL3	6265
+233NL5	7309
+233PL1	3583
+233PL3	4581
+233PL4	5494
+233PL5	3508
+257NL1	3745
+257NL2	4491
+257NL5	4169
+257PL1	3575
+257PL3	5470
+257PL4	3558
+257PL5	4171
+Total of all groups is 114832
+
+Output File Names: 
+syn2A.trim.fasta
+syn2A.scrap.fasta
+syn2A.trim.qual
+syn2A.scrap.qual
+syn2A.groups
+
+
+mothur > summary.seqs(fasta=syn2A.trim.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	50	50	0	3	1
+2.5%-tile:	1	72	72	0	4	2871
+25%-tile:	1	231	231	0	4	28709
+Median: 	1	344	344	0	5	57417
+75%-tile:	1	398	398	0	5	86125
+97.5%-tile:	1	414	414	0	5	111962
+Maximum:	1	473	473	0	8	114832
+Mean:	1	301.693	301.693	0	4.5616
+# of Seqs:	114832
+
+Output File Names: 
+syn2A.trim.summary
+
+It took 2 secs to summarize 114832 sequences.
+
+mothur > screen.seqs(fasta=syn2A.trim.fasta, group=syn2A.groups, minlength=200)
+
+Using 10 processors.
+
+Output File Names: 
+syn2A.trim.good.fasta
+syn2A.trim.bad.accnos
+syn2A.good.groups
+
+
+It took 9 secs to screen 114832 sequences.
+
+mothur > summary.seqs(fasta=syn2A.trim.good.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	223	223	0	4	2404
+25%-tile:	1	254	254	0	4	24031
+Median: 	1	391	391	0	5	48062
+75%-tile:	1	400	400	0	5	72093
+97.5%-tile:	1	415	415	0	5	93720
+Maximum:	1	473	473	0	8	96123
+Mean:	1	338.81	338.81	0	4.6402
+# of Seqs:	96123
+
+Output File Names: 
+syn2A.trim.good.summary
+
+It took 1 secs to summarize 96123 sequences.
+
+mothur > count.groups(group=syn2A.good.groups)
+126NL1 contains 9747.
+126NL5 contains 7396.
+149NL5 contains 1778.
+198NL2 contains 4442.
+198NL5 contains 8360.
+198PL2 contains 3471.
+198PL5 contains 4283.
+233NL1 contains 2988.
+233NL2 contains 3781.
+233NL3 contains 5460.
+233NL5 contains 6077.
+233PL1 contains 3104.
+233PL3 contains 4247.
+233PL4 contains 4670.
+233PL5 contains 2379.
+257NL1 contains 3193.
+257NL2 contains 3549.
+257NL5 contains 3486.
+257PL1 contains 2726.
+257PL3 contains 4707.
+257PL4 contains 3172.
+257PL5 contains 3107.
+
+Total seqs: 96123.
+
+Output File Names: 
+syn2A.good.count.summary
+
+
+mothur > unique.seqs(fasta=syn2A.trim.good.fasta)
+96123	36154
+
+Output File Names: 
+syn2A.trim.good.names
+syn2A.trim.good.unique.fasta
+
+
+mothur > summary.seqs(fasta=syn2A.trim.good.unique.fasta, name=syn2A.trim.good.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	223	223	0	4	2404
+25%-tile:	1	254	254	0	4	24031
+Median: 	1	391	391	0	5	48062
+75%-tile:	1	400	400	0	5	72093
+97.5%-tile:	1	415	415	0	5	93720
+Maximum:	1	473	473	0	8	96123
+Mean:	1	338.81	338.81	0	4.6402
+# of unique seqs:	36154
+total # of seqs:	96123
+
+Output File Names: 
+syn2A.trim.good.unique.summary
+
+It took 2 secs to summarize 96123 sequences.
+
+mothur > count.groups(group=syn2A.good.groups)
+126NL1 contains 9747.
+126NL5 contains 7396.
+149NL5 contains 1778.
+198NL2 contains 4442.
+198NL5 contains 8360.
+198PL2 contains 3471.
+198PL5 contains 4283.
+233NL1 contains 2988.
+233NL2 contains 3781.
+233NL3 contains 5460.
+233NL5 contains 6077.
+233PL1 contains 3104.
+233PL3 contains 4247.
+233PL4 contains 4670.
+233PL5 contains 2379.
+257NL1 contains 3193.
+257NL2 contains 3549.
+257NL5 contains 3486.
+257PL1 contains 2726.
+257PL3 contains 4707.
+257PL4 contains 3172.
+257PL5 contains 3107.
+
+Total seqs: 96123.
+
+Output File Names: 
+syn2A.good.count.summary
+
+
+mothur > summary.seqs(fasta=syn2B.fasta)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	45	45	0	3	1
+2.5%-tile:	1	527	527	0	4	1939
+25%-tile:	1	536	536	0	5	19388
+Median: 	1	542	542	0	5	38775
+75%-tile:	1	546	546	0	5	58162
+97.5%-tile:	1	556	556	1	6	75610
+Maximum:	1	1195	1195	62	10	77548
+Mean:	1	540.195	540.195	0.040001	4.80193
+# of Seqs:	77548
+
+Output File Names: 
+syn2B.summary
+
+It took 2 secs to summarize 77548 sequences.
+
+mothur > trim.seqs(fasta=syn2B.fasta, oligos=syn2.oligos, qfile=syn2B.qual, maxambig=0, maxhomop=8, bdiffs=1, pdiffs=2, qwindowaverage=35, qwindowsize=50)
+
+Using 10 processors.
+Appending files from process 36955
+Appending files from process 36956
+Appending files from process 36957
+Appending files from process 36958
+Appending files from process 36959
+Appending files from process 36960
+Appending files from process 36961
+Appending files from process 36962
+Appending files from process 36963
+
+Group count: 
+126NL1	7038
+126NL5	5678
+149NL5	1708
+198NL2	3496
+198NL5	6240
+198PL2	3075
+198PL5	3569
+233NL1	2487
+233NL2	2952
+233NL3	4415
+233NL5	4897
+233PL1	2283
+233PL3	2840
+233PL4	3607
+233PL5	2096
+257NL1	2417
+257NL2	2962
+257NL5	2524
+257PL1	2321
+257PL3	3553
+257PL4	2512
+257PL5	2716
+Total of all groups is 75386
+
+Output File Names: 
+syn2B.trim.fasta
+syn2B.scrap.fasta
+syn2B.trim.qual
+syn2B.scrap.qual
+syn2B.groups
+
+
+mothur > summary.seqs(fasta=syn2B.trim.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	50	50	0	3	1
+2.5%-tile:	1	72	72	0	4	1885
+25%-tile:	1	234	234	0	4	18847
+Median: 	1	392	392	0	5	37694
+75%-tile:	1	398	398	0	5	56540
+97.5%-tile:	1	410	410	0	5	73502
+Maximum:	1	472	472	0	8	75386
+Mean:	1	312.733	312.733	0	4.59808
+# of Seqs:	75386
+
+Output File Names: 
+syn2B.trim.summary
+
+It took 1 secs to summarize 75386 sequences.
+
+mothur > screen.seqs(fasta=syn2B.trim.fasta, group=syn2B.groups, minlength=200)
+
+Using 10 processors.
+
+Output File Names: 
+syn2B.trim.good.fasta
+syn2B.trim.bad.accnos
+syn2B.good.groups
+
+
+It took 18 secs to screen 75386 sequences.
+
+mothur > summary.seqs(fasta=syn2B.trim.good.fasta, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	226	226	0	4	1622
+25%-tile:	1	257	257	0	4	16214
+Median: 	1	395	395	0	5	32428
+75%-tile:	1	399	399	0	5	48642
+97.5%-tile:	1	411	411	0	5	63234
+Maximum:	1	472	472	0	8	64855
+Mean:	1	347.078	347.078	0	4.67295
+# of Seqs:	64855
+
+Output File Names: 
+syn2B.trim.good.summary
+
+It took 1 secs to summarize 64855 sequences.
+
+mothur > count.groups(group=syn2B.good.groups)
+126NL1 contains 6559.
+126NL5 contains 5312.
+149NL5 contains 1242.
+198NL2 contains 3181.
+198NL5 contains 5867.
+198PL2 contains 2228.
+198PL5 contains 2527.
+233NL1 contains 2087.
+233NL2 contains 2460.
+233NL3 contains 4026.
+233NL5 contains 4205.
+233PL1 contains 2037.
+233PL3 contains 2695.
+233PL4 contains 3054.
+233PL5 contains 1456.
+257NL1 contains 2122.
+257NL2 contains 2355.
+257NL5 contains 2160.
+257PL1 contains 1817.
+257PL3 contains 3116.
+257PL4 contains 2337.
+257PL5 contains 2012.
+
+Total seqs: 64855.
+
+Output File Names: 
+syn2B.good.count.summary
+
+
+mothur > unique.seqs(fasta=syn2B.trim.good.fasta)
+64855	24665
+
+Output File Names: 
+syn2B.trim.good.names
+syn2B.trim.good.unique.fasta
+
+
+mothur > summary.seqs(fasta=syn2B.trim.good.unique.fasta, name=syn2B.trim.good.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	226	226	0	4	1622
+25%-tile:	1	257	257	0	4	16214
+Median: 	1	395	395	0	5	32428
+75%-tile:	1	399	399	0	5	48642
+97.5%-tile:	1	411	411	0	5	63234
+Maximum:	1	472	472	0	8	64855
+Mean:	1	347.078	347.078	0	4.67295
+# of unique seqs:	24665
+total # of seqs:	64855
+
+Output File Names: 
+syn2B.trim.good.unique.summary
+
+It took 2 secs to summarize 64855 sequences.
+
+mothur > count.groups(group=syn2B.good.groups)
+126NL1 contains 6559.
+126NL5 contains 5312.
+149NL5 contains 1242.
+198NL2 contains 3181.
+198NL5 contains 5867.
+198PL2 contains 2228.
+198PL5 contains 2527.
+233NL1 contains 2087.
+233NL2 contains 2460.
+233NL3 contains 4026.
+233NL5 contains 4205.
+233PL1 contains 2037.
+233PL3 contains 2695.
+233PL4 contains 3054.
+233PL5 contains 1456.
+257NL1 contains 2122.
+257NL2 contains 2355.
+257NL5 contains 2160.
+257PL1 contains 1817.
+257PL3 contains 3116.
+257PL4 contains 2337.
+257PL5 contains 2012.
+
+Total seqs: 64855.
+
+Output File Names: 
+syn2B.good.count.summary
+
+
+mothur > merge.files(input=syn1A.trim.good.unique.fasta-syn1B.trim.good.unique.fasta-syn2A.trim.good.unique.fasta-syn2B.trim.good.unique.fasta, output=Cstat_all.fasta)
+
+Output File Names: 
+Cstat_all.fasta
+
+
+mothur > merge.files(input=syn1A.trim.good.names-syn1B.trim.good.names-syn2A.trim.good.names-syn2B.trim.good.names, output=Cstat_all.names)
+
+Output File Names: 
+Cstat_all.names
+
+
+mothur > merge.files(input=syn1A.good.groups-syn1B.good.groups-syn2A.good.groups-syn2B.good.groups, output=Cstat_all.groups)
+
+Output File Names: 
+Cstat_all.groups
+
+
+mothur > summary.seqs(fasta=Cstat_all.fasta, name=Cstat_all.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	200	200	0	3	1
+2.5%-tile:	1	221	221	0	4	6632
+25%-tile:	1	243	243	0	4	66318
+Median: 	1	387	387	0	5	132636
+75%-tile:	1	398	398	0	5	198954
+97.5%-tile:	1	411	411	0	5	258640
+Maximum:	1	473	473	0	8	265271
+Mean:	1	330.281	330.281	0	4.6404
+# of unique seqs:	100879
+total # of seqs:	265271
+
+Output File Names: 
+Cstat_all.summary
+
+It took 3 secs to summarize 265271 sequences.
+
+mothur > count.groups(group=Cstat_all.groups)
+126NL1 contains 16306.
+126NL2 contains 4925.
+126NL3 contains 4818.
+126NL5 contains 12708.
+126PL1 contains 4513.
+126PL2 contains 5116.
+126PL4 contains 5909.
+126PL5 contains 6900.
+149NL1 contains 3384.
+149NL2 contains 3390.
+149NL3 contains 2464.
+149NL5 contains 3020.
+149PL1 contains 6234.
+149PL2 contains 8129.
+149PL3 contains 5141.
+149PL4 contains 4470.
+198NL1 contains 5499.
+198NL2 contains 7623.
+198NL3 contains 5246.
+198NL5 contains 14227.
+198PL1 contains 5385.
+198PL2 contains 5699.
+198PL3 contains 5371.
+198PL4 contains 4222.
+198PL5 contains 6810.
+233NL1 contains 5075.
+233NL2 contains 6241.
+233NL3 contains 9486.
+233NL5 contains 10282.
+233PL1 contains 5141.
+233PL2 contains 3948.
+233PL3 contains 6942.
+233PL4 contains 7724.
+233PL5 contains 3835.
+257NL1 contains 5315.
+257NL2 contains 5904.
+257NL3 contains 3111.
+257NL5 contains 5646.
+257PL1 contains 4543.
+257PL2 contains 6118.
+257PL3 contains 7823.
+257PL4 contains 5509.
+257PL5 contains 5119.
+
+Total seqs: 265271.
+
+Output File Names: 
+Cstat_all.count.summary
+
+
+mothur > align.seqs(fasta=Cstat_all.fasta, template=silva.bacteria.fasta, flip=T, processors=10)
+
+Using 10 processors.
+
+Reading in the silva.bacteria.fasta template sequences...	DONE.
+It took 31 to read  14956 sequences.
+Aligning sequences from Cstat_all.fasta ...
+It took 343 secs to align 100879 sequences.
+
+
+Output File Names: 
+Cstat_all.align
+Cstat_all.align.report
+
+
+mothur > summary.seqs(fasta=Cstat_all.align, name=Cstat_all.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	6237	14962	200	0	3	1
+2.5%-tile:	6428	15945	221	0	4	6632
+25%-tile:	6428	16283	243	0	4	66318
+Median: 	6428	22548	387	0	5	132636
+75%-tile:	6428	22585	398	0	5	198954
+97.5%-tile:	6428	23961	411	0	5	258640
+Maximum:	16291	28456	473	0	8	265271
+Mean:	6429.2	20125.6	330.281	0	4.6404
+# of unique seqs:	100879
+total # of seqs:	265271
+
+Output File Names: 
+Cstat_all.summary
+
+It took 40 secs to summarize 265271 sequences.
+
+mothur > screen.seqs(fasta=Cstat_all.align, group=Cstat_all.groups, name=Cstat_all.names, start=13862, minlength=200, processors=10)
+
+Using 10 processors.
+
+Output File Names: 
+Cstat_all.good.align
+Cstat_all.bad.accnos
+Cstat_all.good.names
+Cstat_all.good.groups
+
+
+It took 147 secs to screen 100879 sequences.
+
+mothur > filter.seqs(fasta=Cstat_all.good.align, vertical=T, trump=., processors=10)
+
+Using 10 processors.
+Creating Filter... 
+
+
+Running Filter... 
+
+
+
+Length of filtered alignment: 55
+Number of columns removed: 49945
+Length of the original alignment: 50000
+Number of sequences used to construct filter: 100878
+
+Output File Names: 
+Cstat_all.filter
+Cstat_all.good.filter.fasta
+
+
+mothur > pre.cluster(fasta=Cstat_all.good.filter.fasta, name=Cstat_all.good.names, diffs=1, processors=10)
+
+Using 10 processors.
+When using running without group information mothur can only use 1 processor, continuing.
+100878	242	100636
+Total number of sequences before precluster was 100878.
+pre.cluster removed 100636 sequences.
+
+It took 3 secs to cluster 100878 sequences.
+
+Output File Names: 
+Cstat_all.good.filter.precluster.fasta
+Cstat_all.good.filter.precluster.names
+Cstat_all.good.filter.precluster.map
+
+
+mothur > summary.seqs(fasta=Cstat_all.good.filter.precluster.fasta, name=Cstat_all.good.filter.precluster.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	55	30	0	2	1
+2.5%-tile:	1	55	33	0	3	6632
+25%-tile:	1	55	33	0	3	66318
+Median: 	1	55	33	0	3	132636
+75%-tile:	1	55	33	0	5	198953
+97.5%-tile:	1	55	33	0	5	258639
+Maximum:	1	55	35	0	6	265270
+Mean:	1	55	33.0001	0	3.80726
+# of unique seqs:	242
+total # of seqs:	265270
+
+Output File Names: 
+Cstat_all.good.filter.precluster.summary
+
+It took 1 secs to summarize 265270 sequences.
+
+mothur > count.groups(group=Cstat_all.good.groups)
+126NL1 contains 16306.
+126NL2 contains 4925.
+126NL3 contains 4818.
+126NL5 contains 12708.
+126PL1 contains 4513.
+126PL2 contains 5116.
+126PL4 contains 5909.
+126PL5 contains 6900.
+149NL1 contains 3384.
+149NL2 contains 3390.
+149NL3 contains 2464.
+149NL5 contains 3019.
+149PL1 contains 6234.
+149PL2 contains 8129.
+149PL3 contains 5141.
+149PL4 contains 4470.
+198NL1 contains 5499.
+198NL2 contains 7623.
+198NL3 contains 5246.
+198NL5 contains 14227.
+198PL1 contains 5385.
+198PL2 contains 5699.
+198PL3 contains 5371.
+198PL4 contains 4222.
+198PL5 contains 6810.
+233NL1 contains 5075.
+233NL2 contains 6241.
+233NL3 contains 9486.
+233NL5 contains 10282.
+233PL1 contains 5141.
+233PL2 contains 3948.
+233PL3 contains 6942.
+233PL4 contains 7724.
+233PL5 contains 3835.
+257NL1 contains 5315.
+257NL2 contains 5904.
+257NL3 contains 3111.
+257NL5 contains 5646.
+257PL1 contains 4543.
+257PL2 contains 6118.
+257PL3 contains 7823.
+257PL4 contains 5509.
+257PL5 contains 5119.
+
+Total seqs: 265270.
+
+Output File Names: 
+Cstat_all.good.count.summary
+
+
+mothur > chimera.uchime(fasta=Cstat_all.good.filter.precluster.fasta, reference=silva.gold.ng.fasta, processors=10)
+
+Using 10 processors.
+
+uchime by Robert C. Edgar
+http://drive5.com/uchime
+This code is donated to the public domain.
+
+Checking sequences from Cstat_all.good.filter.precluster.fasta ...
+
+It took 9 secs to check 242 sequences. 0 chimeras were found.
+
+Output File Names: 
+Cstat_all.good.filter.precluster.ref.uchime.chimeras
+Cstat_all.good.filter.precluster.ref.uchime.accnos
+
+
+mothur > remove.seqs(accnos=Cstat_all.good.filter.precluster.ref.uchime.accnos, fasta=Cstat_all.good.filter.precluster.fasta, name=Cstat_all.good.filter.precluster.names, group=Cstat_all.good.groups)
+[ERROR]: Cstat_all.good.filter.precluster.ref.uchime.accnos is blank, aborting.
+Using Cstat_all.good.filter.precluster.ref.uchime.accnos as input file for the accnos parameter.
+Removed 0 sequences from your name file.
+Removed 0 sequences from your fasta file.
+Removed 0 sequences from your group file.
+
+Output File Names: 
+Cstat_all.good.filter.precluster.pick.names
+Cstat_all.good.filter.precluster.pick.fasta
+Cstat_all.good.pick.groups
+
+
+mothur > summary.seqs(fasta=Cstat_all.good.filter.precluster.pick.fasta, name=Cstat_all.good.filter.precluster.pick.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	55	30	0	2	1
+2.5%-tile:	1	55	33	0	3	6632
+25%-tile:	1	55	33	0	3	66318
+Median: 	1	55	33	0	3	132636
+75%-tile:	1	55	33	0	5	198953
+97.5%-tile:	1	55	33	0	5	258639
+Maximum:	1	55	35	0	6	265270
+Mean:	1	55	33.0001	0	3.80726
+# of unique seqs:	242
+total # of seqs:	265270
+
+Output File Names: 
+Cstat_all.good.filter.precluster.pick.summary
+
+It took 3 secs to summarize 265270 sequences.
+
+mothur > classify.seqs(fasta=Cstat_all.good.filter.precluster.pick.fasta, name=Cstat_all.good.filter.precluster.pick.names, group=Cstat_all.good.pick.groups, reference=silva.bacteria.fasta, taxonomy=silva.bacteria.silva.tax, probs=f cutoff=80, processors=10)
+
+Using 10 processors.
+Reading template taxonomy...     DONE.
+Reading template probabilities...     DONE.
+It took 7 seconds get probabilities. 
+Classifying sequences from Cstat_all.good.filter.precluster.pick.fasta ...
+
+It took 2 secs to classify 242 sequences.
+
+Reading Cstat_all.good.filter.precluster.pick.names...  Done.
+
+It took 18 secs to create the summary file for 242 sequences.
+
+
+Output File Names: 
+Cstat_all.good.filter.precluster.pick.silva.wang.taxonomy
+Cstat_all.good.filter.precluster.pick.silva.wang.tax.summary
+
+
+mothur > remove.lineage(fasta=Cstat_all.good.filter.precluster.pick.fasta, name=Cstat_all.good.filter.precluster.pick.names, group=Cstat_all.good.pick.groups, taxonomy=Cstat_all.good.filter.precluster.pick.silva.wang.taxonomy, taxon=Mitochondria-Archaea-Eukarya-unknown)
+
+Output File Names: 
+Cstat_all.good.filter.precluster.pick.silva.wang.pick.taxonomy
+Cstat_all.good.filter.precluster.pick.pick.names
+Cstat_all.good.filter.precluster.pick.pick.fasta
+Cstat_all.good.pick.pick.groups
+
+
+mothur > summary.seqs(fasta=Cstat_all.good.filter.precluster.pick.pick.fasta, name=Cstat_all.good.filter.precluster.pick.pick.names, processors=10)
+
+Using 10 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	55	30	0	2	1
+2.5%-tile:	1	55	33	0	3	6632
+25%-tile:	1	55	33	0	3	66318
+Median: 	1	55	33	0	3	132636
+75%-tile:	1	55	33	0	5	198953
+97.5%-tile:	1	55	33	0	5	258639
+Maximum:	1	55	35	0	6	265270
+Mean:	1	55	33.0001	0	3.80726
+# of unique seqs:	242
+total # of seqs:	265270
+
+Output File Names: 
+Cstat_all.good.filter.precluster.pick.pick.summary
+
+It took 0 secs to summarize 265270 sequences.
+
+mothur > count.groups(group=Cstat_all.good.pick.pick.groups)
+126NL1 contains 16306.
+126NL2 contains 4925.
+126NL3 contains 4818.
+126NL5 contains 12708.
+126PL1 contains 4513.
+126PL2 contains 5116.
+126PL4 contains 5909.
+126PL5 contains 6900.
+149NL1 contains 3384.
+149NL2 contains 3390.
+149NL3 contains 2464.
+149NL5 contains 3019.
+149PL1 contains 6234.
+149PL2 contains 8129.
+149PL3 contains 5141.
+149PL4 contains 4470.
+198NL1 contains 5499.
+198NL2 contains 7623.
+198NL3 contains 5246.
+198NL5 contains 14227.
+198PL1 contains 5385.
+198PL2 contains 5699.
+198PL3 contains 5371.
+198PL4 contains 4222.
+198PL5 contains 6810.
+233NL1 contains 5075.
+233NL2 contains 6241.
+233NL3 contains 9486.
+233NL5 contains 10282.
+233PL1 contains 5141.
+233PL2 contains 3948.
+233PL3 contains 6942.
+233PL4 contains 7724.
+233PL5 contains 3835.
+257NL1 contains 5315.
+257NL2 contains 5904.
+257NL3 contains 3111.
+257NL5 contains 5646.
+257PL1 contains 4543.
+257PL2 contains 6118.
+257PL3 contains 7823.
+257PL4 contains 5509.
+257PL5 contains 5119.
+
+Total seqs: 265270.
+
+Output File Names: 
+Cstat_all.good.pick.pick.count.summary
+
+
+mothur > system(mv ./Cstat_all.good.filter.precluster.pick.pick.fasta ./Cstat_all.final.fasta) 
+
+
+mothur > system(mv ./Cstat_all.good.filter.precluster.pick.pick.names ./Cstat_all.final.names)
+
+
+mothur > system(mv ./Cstat_all.good.pick.pick.groups ./Cstat_all.final.groups)
+
+
+mothur > system(mv ./Cstat_all.good.filter.precluster.pick.silva.wang.taxonomy ./Cstat_all.final.taxonomy)
+
+
+mothur > cluster.split(fasta=Cstat_all.final.fasta, name=Cstat_all.final.names, taxonomy=Cstat_all.final.taxonomy, splitmethod=classify, taxlevel=3, processors=10)
+
+Using 10 processors.
+Using splitmethod fasta.
+Splitting the file...
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.0.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.0.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.1.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.1.dist
+
+It took 1 seconds to calculate the distances for 8 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.2.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.2.dist
+
+It took 1 seconds to calculate the distances for 8 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.3.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.3.dist
+
+It took 2 seconds to calculate the distances for 23 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.4.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.4.dist
+
+It took 1 seconds to calculate the distances for 125 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.5.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.5.dist
+
+It took 1 seconds to calculate the distances for 4 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.6.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.6.dist
+
+It took 1 seconds to calculate the distances for 21 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.7.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.7.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.8.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.8.dist
+
+It took 2 seconds to calculate the distances for 13 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.9.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.9.dist
+
+It took 0 seconds to calculate the distances for 3 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.10.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.10.dist
+
+It took 1 seconds to calculate the distances for 3 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.11.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.11.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.12.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.12.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.13.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.13.dist
+
+It took 0 seconds to calculate the distances for 3 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.14.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.14.dist
+
+It took 0 seconds to calculate the distances for 4 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.15.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.15.dist
+
+It took 2 seconds to calculate the distances for 5 sequences.
+/******************************************/
+Running command: dist.seqs(fasta=Cstat_all.final.fasta.16.temp, processors=10, cutoff=0.255)
+
+Using 10 processors.
+/******************************************/
+
+Output File Names: 
+Cstat_all.final.fasta.16.dist
+
+It took 0 seconds to calculate the distances for 2 sequences.
+It took 22 seconds to split the distance file.
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.9.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.0.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.7.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.11.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.12.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.16.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.14.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.5.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.13.dist
+Cstat_all.final.fasta.3.dist
+Cstat_all.final.fasta.9.dist
+
+Reading Cstat_all.final.fasta.10.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.9.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.0.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.12.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.7.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.13.dist
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.11.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Reading Cstat_all.final.fasta.3.dist
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.16.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.14.dist
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.5.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.10.dist
+
+
+Reading Cstat_all.final.fasta.8.dist
+Reading Cstat_all.final.fasta.6.dist
+
+Reading Cstat_all.final.fasta.1.dist
+
+Reading Cstat_all.final.fasta.4.dist
+
+Reading Cstat_all.final.fasta.2.dist
+
+Reading Cstat_all.final.fasta.15.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.3.dist
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.2.dist
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.6.dist
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.8.dist
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.15.dist
+Cutoff was 0.255 changed cutoff to 0.22
+***********************************************************************
+
+Cutoff was 0.255 changed cutoff to 0.22
+Cutoff was 0.255 changed cutoff to 0.19
+Cutoff was 0.255 changed cutoff to 0.23
+Clustering Cstat_all.final.fasta.1.dist
+Cutoff was 0.255 changed cutoff to 0.22
+********************#****#****#****#****#****#****#****#****#****#****#
+Reading matrix:     |||||||||||||||||||||||||||||||||||||||||||||||||||
+***********************************************************************
+
+Clustering Cstat_all.final.fasta.4.dist
+Cutoff was 0.255 changed cutoff to 0.19
+Cutoff was 0.255 changed cutoff to 0.19
+Cutoff was 0.255 changed cutoff to 0.12
+Cutoff was 0.255 changed cutoff to 0.12
+It took 3 seconds to cluster
+Merging the clustered files...
+It took 14 seconds to merge.
+
+Output File Names: 
+Cstat_all.final.an.sabund
+Cstat_all.final.an.rabund
+Cstat_all.final.an.list
+
+
+mothur > make.shared(list=Cstat_all.final.an.list, group=Cstat_all.final.groups,label=unique-0.03-0.05-0.10)
+unique
+0.03
+0.10
+
+Output File Names: 
+Cstat_all.final.an.shared
+
+
+mothur > classify.otu(list=Cstat_all.final.an.list, name=Cstat_all.final.names, taxonomy=Cstat_all.final.taxonomy, label=unique-0.03-0.05-0.10)
+reftaxonomy is not required, but if given will keep the rankIDs in the summary file static.
+unique	242
+0.03	241
+Your file does not include the label 
+0.05. I will use the next smallest distance. 
+0.10	68
+
+Output File Names: 
+Cstat_all.final.an.unique.cons.taxonomy
+Cstat_all.final.an.unique.cons.tax.summary
+Cstat_all.final.an.0.03.cons.taxonomy
+Cstat_all.final.an.0.03.cons.tax.summary
+Cstat_all.final.an.0.10.cons.taxonomy
+Cstat_all.final.an.0.10.cons.tax.summary
+
+
+mothur > quit()
